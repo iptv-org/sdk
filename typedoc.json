@@ -1,0 +1,13 @@
+{
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "sort": ["source-order"],
+  "plugin": ["typedoc-plugin-markdown", "typedoc-github-wiki-theme"],
+  "readme": "none",
+  "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "useCodeBlocks": true,
+  "expandObjects": true,
+  "expandParameters": true
+}
