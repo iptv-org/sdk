@@ -3,7 +3,7 @@
     "src/index.ts"
   ],
   "sort": ["source-order"],
-  "plugin": ["typedoc-plugin-markdown", "typedoc-github-wiki-theme"],
+  "plugin": ["typedoc-plugin-markdown"],
   "readme": "none",
   "hidePageHeader": true,
   "hideBreadcrumbs": true,
