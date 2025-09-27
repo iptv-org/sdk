@@ -30,14 +30,13 @@ Results:
 ```jsonc
 [
   {
-    "channelId": null,
-    "feedId": null,
+    "channel": null,
+    "feed": null,
     "title": "Iman TV",
     "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8",
     "referrer": null,
-    "userAgent": null,
-    "verticalResolution": 480,
-    "isInterlaced": false
+    "user_agent": null,
+    "quality": "480p"
   }
   //...
 ]
