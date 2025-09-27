@@ -1,0 +1,32 @@
+{
+  "name": "@iptv-org/sdk",
+  "version": "1.0.0",
+  "description": "JavaScript library to query data from iptv-org/api",
+  "license": "UNLICENSED",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "pkgroll --clean-dist",
+    "dev": "pkgroll --watch",
+    "test": "vitest run",
+    "docs": "npx typedoc"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.3.1",
+    "fs-extra": "^11.3.1",
+    "msw": "^2.11.2",
+    "pkgroll": "^2.15.4",
+    "typedoc": "^0.28.13",
+    "typedoc-github-wiki-theme": "^2.1.0",
+    "typedoc-plugin-markdown": "^4.8.1",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@freearhey/core": "^0.14.2",
+    "@freearhey/search-js": "^0.2.0",
+    "@ntlab/sfetch": "^1.2.0",
+    "axios": "^1.11.0",
+    "dayjs": "^1.11.18"
+  }
+}
