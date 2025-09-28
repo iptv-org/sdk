@@ -76,12 +76,22 @@ All data is contained in the helper class [Collection](https://github.com/freear
 
 ```js
 const filtered = channels
-  .filter(channel => channel.coutnry === 'FR')
+  .filter(channel => channel.country === 'FR')
   .sortBy(channel => channel.name)
   .all()
 
 console.log(filtered)
 ```
+
+Each element of the collection also has a set of useful methods:
+
+```js
+const channels = countries.first().getChannels()
+
+console.log(channels)
+```
+
+A complete list of available methods can be found in the [documentation](docs/@iptv-org/namespaces/Models/README.md).
 
 ### Search channels
 
