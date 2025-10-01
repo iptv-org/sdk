@@ -3,8 +3,14 @@
   "version": "1.0.1",
   "description": "JavaScript library to query data from iptv-org/api",
   "license": "UNLICENSED",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "pkgroll --clean-dist",
     "dev": "pkgroll --watch",
@@ -22,7 +28,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@freearhey/core": "^0.14.2",
+    "@freearhey/core": "^0.14.3",
     "@freearhey/search-js": "^0.2.0",
     "@ntlab/sfetch": "^1.2.0",
     "axios": "^1.11.0",
