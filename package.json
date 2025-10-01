@@ -1,6 +1,6 @@
 {
   "name": "@iptv-org/sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript library to query data from iptv-org/api",
   "license": "UNLICENSED",
   "module": "./dist/index.js",
