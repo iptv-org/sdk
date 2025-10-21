@@ -7,6 +7,8 @@ JavaScript library to query data from [iptv-org/api](https://github.com/iptv-org
 ```sh
 # set registry for @iptv-org scope
 npm config set @iptv-org:registry https://npm.pkg.github.com
+# set token for registry
+npm config set //npm.pkg.github.com/:_authToken YOUR_GITHUB_PAT
 # install the package
 npm install @iptv-org/sdk
 ```
