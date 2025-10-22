@@ -2,6 +2,10 @@
   "name": "@iptv-org/sdk",
   "version": "1.1.0",
   "description": "JavaScript library to query data from iptv-org/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iptv-org/sdk.git"
+  },
   "license": "UNLICENSED",
   "type": "module",
   "exports": {
