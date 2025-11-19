@@ -1,4 +1,4 @@
-# SDK
+# SDK [![publish](https://github.com/iptv-org/sdk/actions/workflows/publish.yml/badge.svg)](https://github.com/iptv-org/sdk/actions/workflows/publish.yml)
 
 JavaScript library to query data from [iptv-org/api](https://github.com/iptv-org/api).
 
