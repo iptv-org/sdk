@@ -18,7 +18,7 @@ type ProcessedData = {
 };
 ```
 
-Defined in: [types/dataProcessor.d.ts:18](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L18)
+Defined in: [types/dataProcessor.d.ts:18](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L18)
 
 ## Properties
 
@@ -28,7 +28,7 @@ Defined in: [types/dataProcessor.d.ts:18](https://github.com/iptv-org/sdk/blob/8
 blocklist: Collection<BlocklistRecord>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:19](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L19)
+Defined in: [types/dataProcessor.d.ts:19](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L19)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/dataProcessor.d.ts:19](https://github.com/iptv-org/sdk/blob/8
 categories: Collection<Category>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L20)
+Defined in: [types/dataProcessor.d.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L20)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [types/dataProcessor.d.ts:20](https://github.com/iptv-org/sdk/blob/8
 channels: Collection<Channel>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:21](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L21)
+Defined in: [types/dataProcessor.d.ts:21](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L21)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [types/dataProcessor.d.ts:21](https://github.com/iptv-org/sdk/blob/8
 cities: Collection<City>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:22](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L22)
+Defined in: [types/dataProcessor.d.ts:22](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L22)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [types/dataProcessor.d.ts:22](https://github.com/iptv-org/sdk/blob/8
 countries: Collection<Country>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:23](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L23)
+Defined in: [types/dataProcessor.d.ts:23](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L23)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [types/dataProcessor.d.ts:23](https://github.com/iptv-org/sdk/blob/8
 feeds: Collection<Feed>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:24](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L24)
+Defined in: [types/dataProcessor.d.ts:24](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L24)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [types/dataProcessor.d.ts:24](https://github.com/iptv-org/sdk/blob/8
 guides: Collection<Guide>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:25](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L25)
+Defined in: [types/dataProcessor.d.ts:25](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L25)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [types/dataProcessor.d.ts:25](https://github.com/iptv-org/sdk/blob/8
 languages: Collection<Language>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:26](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L26)
+Defined in: [types/dataProcessor.d.ts:26](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L26)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [types/dataProcessor.d.ts:26](https://github.com/iptv-org/sdk/blob/8
 logos: Collection<Logo>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:27](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L27)
+Defined in: [types/dataProcessor.d.ts:27](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L27)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [types/dataProcessor.d.ts:27](https://github.com/iptv-org/sdk/blob/8
 regions: Collection<Region>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:28](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L28)
+Defined in: [types/dataProcessor.d.ts:28](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L28)
 
 ***
 
@@ -128,7 +128,7 @@ Defined in: [types/dataProcessor.d.ts:28](https://github.com/iptv-org/sdk/blob/8
 streams: Collection<Stream>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:29](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L29)
+Defined in: [types/dataProcessor.d.ts:29](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L29)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: [types/dataProcessor.d.ts:29](https://github.com/iptv-org/sdk/blob/8
 subdivisions: Collection<Subdivision>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:30](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L30)
+Defined in: [types/dataProcessor.d.ts:30](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L30)
 
 ***
 
@@ -148,4 +148,4 @@ Defined in: [types/dataProcessor.d.ts:30](https://github.com/iptv-org/sdk/blob/8
 timezones: Collection<Timezone>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:31](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L31)
+Defined in: [types/dataProcessor.d.ts:31](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L31)

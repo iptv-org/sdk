@@ -1,6 +1,6 @@
 # Class: Client
 
-Defined in: [core/client.ts:9](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/client.ts#L9)
+Defined in: [core/client.ts:9](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/client.ts#L9)
 
 ## Constructors
 
@@ -12,7 +12,7 @@ new Client(options?: {
 }): Client;
 ```
 
-Defined in: [core/client.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/client.ts#L14)
+Defined in: [core/client.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/client.ts#L14)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [core/client.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373
 load(): Promise<void>;
 ```
 
-Defined in: [core/client.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/client.ts#L20)
+Defined in: [core/client.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/client.ts#L20)
 
 #### Returns
 
@@ -48,7 +48,7 @@ Defined in: [core/client.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373
 getData(): ProcessedData;
 ```
 
-Defined in: [core/client.ts:46](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/client.ts#L46)
+Defined in: [core/client.ts:46](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/client.ts#L46)
 
 #### Returns
 
@@ -62,7 +62,7 @@ Defined in: [core/client.ts:46](https://github.com/iptv-org/sdk/blob/88d645d3373
 searchChannels(query: string): Collection<Channel>;
 ```
 
-Defined in: [core/client.ts:50](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/client.ts#L50)
+Defined in: [core/client.ts:50](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/client.ts#L50)
 
 #### Parameters
 

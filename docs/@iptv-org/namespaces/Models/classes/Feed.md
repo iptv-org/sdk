@@ -1,6 +1,6 @@
 # Class: Feed
 
-Defined in: [models/feed.ts:13](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L13)
+Defined in: [models/feed.ts:13](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L13)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/feed.ts:13](https://github.com/iptv-org/sdk/blob/88d645d3373
 new Feed(data: FeedData): Feed;
 ```
 
-Defined in: [models/feed.ts:33](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L33)
+Defined in: [models/feed.ts:33](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L33)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/feed.ts:33](https://github.com/iptv-org/sdk/blob/88d645d3373
 channel: string;
 ```
 
-Defined in: [models/feed.ts:15](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L15)
+Defined in: [models/feed.ts:15](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L15)
 
 Channel ID
 
@@ -42,7 +42,7 @@ Channel ID
 id: string;
 ```
 
-Defined in: [models/feed.ts:17](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L17)
+Defined in: [models/feed.ts:17](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L17)
 
 Unique feed ID
 
@@ -54,7 +54,7 @@ Unique feed ID
 name: string;
 ```
 
-Defined in: [models/feed.ts:19](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L19)
+Defined in: [models/feed.ts:19](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L19)
 
 Name of the feed
 
@@ -66,7 +66,7 @@ Name of the feed
 alt_names: string[];
 ```
 
-Defined in: [models/feed.ts:21](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L21)
+Defined in: [models/feed.ts:21](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L21)
 
 List of alternative feed names
 
@@ -78,7 +78,7 @@ List of alternative feed names
 is_main: boolean;
 ```
 
-Defined in: [models/feed.ts:23](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L23)
+Defined in: [models/feed.ts:23](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L23)
 
 Indicates if this feed is the main for the channel
 
@@ -90,7 +90,7 @@ Indicates if this feed is the main for the channel
 broadcast_area: string[];
 ```
 
-Defined in: [models/feed.ts:25](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L25)
+Defined in: [models/feed.ts:25](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L25)
 
 List of codes describing the broadcasting area (`r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>`)
 
@@ -102,7 +102,7 @@ List of codes describing the broadcasting area (`r/<region_code>`, `c/<country_c
 languages: string[];
 ```
 
-Defined in: [models/feed.ts:27](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L27)
+Defined in: [models/feed.ts:27](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L27)
 
 List of language codes in which the feed is broadcast
 
@@ -114,7 +114,7 @@ List of language codes in which the feed is broadcast
 timezones: string[];
 ```
 
-Defined in: [models/feed.ts:29](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L29)
+Defined in: [models/feed.ts:29](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L29)
 
 List of timezone IDs in which the feed is broadcast
 
@@ -126,7 +126,7 @@ List of timezone IDs in which the feed is broadcast
 format: string;
 ```
 
-Defined in: [models/feed.ts:31](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L31)
+Defined in: [models/feed.ts:31](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L31)
 
 Video format of the feed
 
@@ -138,7 +138,7 @@ Video format of the feed
 getStreamId(): string;
 ```
 
-Defined in: [models/feed.ts:46](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L46)
+Defined in: [models/feed.ts:46](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L46)
 
 #### Returns
 
@@ -154,7 +154,7 @@ Stream ID for the feed
 getFullName(): string;
 ```
 
-Defined in: [models/feed.ts:51](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L51)
+Defined in: [models/feed.ts:51](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L51)
 
 #### Returns
 
@@ -167,14 +167,14 @@ Full name of the feed
 ### getChannel()
 
 ```ts
-getChannel(): undefined | Channel;
+getChannel(): Channel | undefined;
 ```
 
-Defined in: [models/feed.ts:59](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L59)
+Defined in: [models/feed.ts:59](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L59)
 
 #### Returns
 
-`undefined` \| [`Channel`](Channel.md)
+[`Channel`](Channel.md) \| `undefined`
 
 Channel associated with the feed
 
@@ -186,7 +186,7 @@ Channel associated with the feed
 getStreams(): Collection<Stream>;
 ```
 
-Defined in: [models/feed.ts:64](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L64)
+Defined in: [models/feed.ts:64](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L64)
 
 #### Returns
 
@@ -202,7 +202,7 @@ List of streams for the feed
 getGuides(): Collection<Guide>;
 ```
 
-Defined in: [models/feed.ts:76](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L76)
+Defined in: [models/feed.ts:76](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L76)
 
 #### Returns
 
@@ -218,7 +218,7 @@ List of guides for the feed
 getLanguages(): Collection<Language>;
 ```
 
-Defined in: [models/feed.ts:88](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L88)
+Defined in: [models/feed.ts:88](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L88)
 
 #### Returns
 
@@ -234,7 +234,7 @@ List of languages in which the feed is broadcast
 getTimezones(): Collection<Timezone>;
 ```
 
-Defined in: [models/feed.ts:99](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L99)
+Defined in: [models/feed.ts:99](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L99)
 
 #### Returns
 
@@ -250,7 +250,7 @@ List of timezones in which the feed is broadcast
 getBroadcastArea(): BroadcastArea;
 ```
 
-Defined in: [models/feed.ts:111](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L111)
+Defined in: [models/feed.ts:111](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L111)
 
 #### Returns
 
@@ -266,7 +266,7 @@ Broadcast area of the feed
 getBroadcastAreaCodes(): Collection<string>;
 ```
 
-Defined in: [models/feed.ts:116](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L116)
+Defined in: [models/feed.ts:116](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L116)
 
 #### Returns
 
@@ -282,7 +282,7 @@ List of broadcast area codes of the feed
 getBroadcastAreaLocations(): Collection<BroadcastAreaLocation>;
 ```
 
-Defined in: [models/feed.ts:121](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L121)
+Defined in: [models/feed.ts:121](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L121)
 
 #### Returns
 
@@ -298,7 +298,7 @@ List of broadcast area locations of the feed
 getLogos(): Collection<Logo>;
 ```
 
-Defined in: [models/feed.ts:126](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L126)
+Defined in: [models/feed.ts:126](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L126)
 
 #### Returns
 
@@ -314,7 +314,7 @@ List of logos for the feed
 toJSON(): string;
 ```
 
-Defined in: [models/feed.ts:131](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L131)
+Defined in: [models/feed.ts:131](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L131)
 
 #### Returns
 
@@ -330,7 +330,7 @@ JSON version of all data
 toObject(): FeedData;
 ```
 
-Defined in: [models/feed.ts:136](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/feed.ts#L136)
+Defined in: [models/feed.ts:136](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/feed.ts#L136)
 
 #### Returns
 

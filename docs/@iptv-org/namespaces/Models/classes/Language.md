@@ -1,6 +1,6 @@
 # Class: Language
 
-Defined in: [models/language.ts:3](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L3)
+Defined in: [models/language.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L3)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/language.ts:3](https://github.com/iptv-org/sdk/blob/88d645d3
 new Language(data: LanguageData): Language;
 ```
 
-Defined in: [models/language.ts:9](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L9)
+Defined in: [models/language.ts:9](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L9)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/language.ts:9](https://github.com/iptv-org/sdk/blob/88d645d3
 name: string;
 ```
 
-Defined in: [models/language.ts:5](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L5)
+Defined in: [models/language.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L5)
 
 Language name
 
@@ -42,7 +42,7 @@ Language name
 code: string;
 ```
 
-Defined in: [models/language.ts:7](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L7)
+Defined in: [models/language.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L7)
 
 [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) code of the language
 
@@ -54,7 +54,7 @@ Defined in: [models/language.ts:7](https://github.com/iptv-org/sdk/blob/88d645d3
 toJSON(): string;
 ```
 
-Defined in: [models/language.ts:15](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L15)
+Defined in: [models/language.ts:15](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L15)
 
 #### Returns
 
@@ -70,7 +70,7 @@ JSON version of all data
 toObject(): LanguageData;
 ```
 
-Defined in: [models/language.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/language.ts#L20)
+Defined in: [models/language.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/language.ts#L20)
 
 #### Returns
 

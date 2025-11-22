@@ -1,6 +1,6 @@
 # Class: Stream
 
-Defined in: [models/stream.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L10)
+Defined in: [models/stream.ts:10](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L10)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/stream.ts:10](https://github.com/iptv-org/sdk/blob/88d645d33
 new Stream(data: StreamData): Stream;
 ```
 
-Defined in: [models/stream.ts:26](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L26)
+Defined in: [models/stream.ts:26](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L26)
 
 #### Parameters
 
@@ -27,10 +27,10 @@ Defined in: [models/stream.ts:26](https://github.com/iptv-org/sdk/blob/88d645d33
 ### channel
 
 ```ts
-channel: null | string;
+channel: string | null;
 ```
 
-Defined in: [models/stream.ts:12](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L12)
+Defined in: [models/stream.ts:12](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L12)
 
 Channel ID
 
@@ -39,10 +39,10 @@ Channel ID
 ### feed
 
 ```ts
-feed: null | string;
+feed: string | null;
 ```
 
-Defined in: [models/stream.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L14)
+Defined in: [models/stream.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L14)
 
 Feed ID
 
@@ -54,7 +54,7 @@ Feed ID
 title: string;
 ```
 
-Defined in: [models/stream.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L16)
+Defined in: [models/stream.ts:16](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L16)
 
 Stream title
 
@@ -66,7 +66,7 @@ Stream title
 url: string;
 ```
 
-Defined in: [models/stream.ts:18](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L18)
+Defined in: [models/stream.ts:18](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L18)
 
 Stream URL
 
@@ -75,10 +75,10 @@ Stream URL
 ### referrer
 
 ```ts
-referrer: null | string;
+referrer: string | null;
 ```
 
-Defined in: [models/stream.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L20)
+Defined in: [models/stream.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L20)
 
 The [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) request header for the stream
 
@@ -87,10 +87,10 @@ The [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)
 ### user\_agent
 
 ```ts
-user_agent: null | string;
+user_agent: string | null;
 ```
 
-Defined in: [models/stream.ts:22](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L22)
+Defined in: [models/stream.ts:22](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L22)
 
 The [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) request header for the stream
 
@@ -99,10 +99,10 @@ The [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-
 ### quality
 
 ```ts
-quality: null | string;
+quality: string | null;
 ```
 
-Defined in: [models/stream.ts:24](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L24)
+Defined in: [models/stream.ts:24](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L24)
 
 Maximum stream quality
 
@@ -114,7 +114,7 @@ Maximum stream quality
 getId(): string;
 ```
 
-Defined in: [models/stream.ts:37](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L37)
+Defined in: [models/stream.ts:37](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L37)
 
 #### Returns
 
@@ -127,14 +127,14 @@ Stream ID
 ### getChannel()
 
 ```ts
-getChannel(): undefined | Channel;
+getChannel(): Channel | undefined;
 ```
 
-Defined in: [models/stream.ts:51](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L51)
+Defined in: [models/stream.ts:51](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L51)
 
 #### Returns
 
-`undefined` \| [`Channel`](Channel.md)
+[`Channel`](Channel.md) \| `undefined`
 
 Channel associated with the stream
 
@@ -143,14 +143,14 @@ Channel associated with the stream
 ### getFeed()
 
 ```ts
-getFeed(): undefined | Feed;
+getFeed(): Feed | undefined;
 ```
 
-Defined in: [models/stream.ts:58](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L58)
+Defined in: [models/stream.ts:58](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L58)
 
 #### Returns
 
-`undefined` \| [`Feed`](Feed.md)
+[`Feed`](Feed.md) \| `undefined`
 
 Feed associated with the stream
 
@@ -162,7 +162,7 @@ Feed associated with the stream
 getBroadcastAreaCodes(): Collection<string>;
 ```
 
-Defined in: [models/stream.ts:72](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L72)
+Defined in: [models/stream.ts:72](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L72)
 
 #### Returns
 
@@ -178,7 +178,7 @@ List of codes describing the broadcasting area (`r/<region_code>`, `c/<country_c
 getCategories(): Collection<Category>;
 ```
 
-Defined in: [models/stream.ts:80](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L80)
+Defined in: [models/stream.ts:80](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L80)
 
 #### Returns
 
@@ -194,7 +194,7 @@ List of all categories of the stream
 getLanguages(): Collection<Language>;
 ```
 
-Defined in: [models/stream.ts:88](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L88)
+Defined in: [models/stream.ts:88](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L88)
 
 #### Returns
 
@@ -210,7 +210,7 @@ List of all languages in which the stream is broadcast
 getLogos(): Collection<Logo>;
 ```
 
-Defined in: [models/stream.ts:96](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L96)
+Defined in: [models/stream.ts:96](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L96)
 
 #### Returns
 
@@ -226,7 +226,7 @@ List of logos for the stream
 toJSON(): string;
 ```
 
-Defined in: [models/stream.ts:107](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L107)
+Defined in: [models/stream.ts:107](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L107)
 
 #### Returns
 
@@ -242,7 +242,7 @@ JSON version of all data
 toObject(): StreamData;
 ```
 
-Defined in: [models/stream.ts:112](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/stream.ts#L112)
+Defined in: [models/stream.ts:112](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/stream.ts#L112)
 
 #### Returns
 

@@ -1,6 +1,6 @@
 # Class: Region
 
-Defined in: [models/region.ts:8](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L8)
+Defined in: [models/region.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L8)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/region.ts:8](https://github.com/iptv-org/sdk/blob/88d645d337
 new Region(data: RegionData): Region;
 ```
 
-Defined in: [models/region.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L16)
+Defined in: [models/region.ts:16](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L16)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/region.ts:16](https://github.com/iptv-org/sdk/blob/88d645d33
 code: string;
 ```
 
-Defined in: [models/region.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L10)
+Defined in: [models/region.ts:10](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L10)
 
 Code of the region
 
@@ -42,7 +42,7 @@ Code of the region
 name: string;
 ```
 
-Defined in: [models/region.ts:12](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L12)
+Defined in: [models/region.ts:12](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L12)
 
 Full name of the region
 
@@ -54,7 +54,7 @@ Full name of the region
 countries: string[];
 ```
 
-Defined in: [models/region.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L14)
+Defined in: [models/region.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L14)
 
 List of countries in the region
 
@@ -66,7 +66,7 @@ List of countries in the region
 getRegions(): Collection<Region>;
 ```
 
-Defined in: [models/region.ts:23](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L23)
+Defined in: [models/region.ts:23](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L23)
 
 #### Returns
 
@@ -82,7 +82,7 @@ List of regions related to the region
 getCountries(): Collection<Country>;
 ```
 
-Defined in: [models/region.ts:33](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L33)
+Defined in: [models/region.ts:33](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L33)
 
 #### Returns
 
@@ -98,7 +98,7 @@ List of country of the region
 getSubdivisions(): Collection<Subdivision>;
 ```
 
-Defined in: [models/region.ts:44](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L44)
+Defined in: [models/region.ts:44](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L44)
 
 #### Returns
 
@@ -114,7 +114,7 @@ List of subdivisions of the region
 getCities(): Collection<City>;
 ```
 
-Defined in: [models/region.ts:54](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L54)
+Defined in: [models/region.ts:54](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L54)
 
 #### Returns
 
@@ -130,7 +130,7 @@ List of cities of the region
 toJSON(): string;
 ```
 
-Defined in: [models/region.ts:64](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L64)
+Defined in: [models/region.ts:64](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L64)
 
 #### Returns
 
@@ -146,7 +146,7 @@ JSON version of all data
 toObject(): RegionData;
 ```
 
-Defined in: [models/region.ts:69](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/region.ts#L69)
+Defined in: [models/region.ts:69](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/region.ts#L69)
 
 #### Returns
 

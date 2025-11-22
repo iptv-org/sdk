@@ -1,6 +1,6 @@
 # Class: DataManager
 
-Defined in: [core/dataManager.ts:39](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L39)
+Defined in: [core/dataManager.ts:39](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L39)
 
 ## Constructors
 
@@ -12,7 +12,7 @@ new DataManager(config?: {
 }): DataManager;
 ```
 
-Defined in: [core/dataManager.ts:47](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L47)
+Defined in: [core/dataManager.ts:47](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L47)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ downloadToDisk(config?: {
 }): Promise<void>;
 ```
 
-Defined in: [core/dataManager.ts:57](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L57)
+Defined in: [core/dataManager.ts:57](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L57)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [core/dataManager.ts:57](https://github.com/iptv-org/sdk/blob/88d645
 downloadFileToDisk(basename: string, requestConfig?: AxiosRequestConfig<any>): Promise<unknown>;
 ```
 
-Defined in: [core/dataManager.ts:64](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L64)
+Defined in: [core/dataManager.ts:64](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L64)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [core/dataManager.ts:64](https://github.com/iptv-org/sdk/blob/88d645
 loadFromDisk(): Promise<void>;
 ```
 
-Defined in: [core/dataManager.ts:98](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L98)
+Defined in: [core/dataManager.ts:98](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L98)
 
 #### Returns
 
@@ -96,7 +96,7 @@ Defined in: [core/dataManager.ts:98](https://github.com/iptv-org/sdk/blob/88d645
 loadFileFromDisk(basename: string): Promise<object[]>;
 ```
 
-Defined in: [core/dataManager.ts:104](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L104)
+Defined in: [core/dataManager.ts:104](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L104)
 
 #### Parameters
 
@@ -118,7 +118,7 @@ downloadToMemory(config?: {
 }): Promise<void>;
 ```
 
-Defined in: [core/dataManager.ts:122](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L122)
+Defined in: [core/dataManager.ts:122](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L122)
 
 #### Parameters
 
@@ -140,7 +140,7 @@ Defined in: [core/dataManager.ts:122](https://github.com/iptv-org/sdk/blob/88d64
 loadFromMemory(): void;
 ```
 
-Defined in: [core/dataManager.ts:137](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L137)
+Defined in: [core/dataManager.ts:137](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L137)
 
 #### Returns
 
@@ -154,7 +154,7 @@ Defined in: [core/dataManager.ts:137](https://github.com/iptv-org/sdk/blob/88d64
 processData(): void;
 ```
 
-Defined in: [core/dataManager.ts:141](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L141)
+Defined in: [core/dataManager.ts:141](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L141)
 
 #### Returns
 
@@ -168,7 +168,7 @@ Defined in: [core/dataManager.ts:141](https://github.com/iptv-org/sdk/blob/88d64
 getProcessedData(): ProcessedData;
 ```
 
-Defined in: [core/dataManager.ts:145](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L145)
+Defined in: [core/dataManager.ts:145](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L145)
 
 #### Returns
 
@@ -182,7 +182,7 @@ Defined in: [core/dataManager.ts:145](https://github.com/iptv-org/sdk/blob/88d64
 getRawData(): RawData;
 ```
 
-Defined in: [core/dataManager.ts:165](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L165)
+Defined in: [core/dataManager.ts:165](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L165)
 
 #### Returns
 
@@ -196,7 +196,7 @@ Defined in: [core/dataManager.ts:165](https://github.com/iptv-org/sdk/blob/88d64
 setRawData(rawData: RawData): void;
 ```
 
-Defined in: [core/dataManager.ts:169](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/dataManager.ts#L169)
+Defined in: [core/dataManager.ts:169](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/dataManager.ts#L169)
 
 #### Parameters
 

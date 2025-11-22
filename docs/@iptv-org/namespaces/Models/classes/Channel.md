@@ -1,6 +1,6 @@
 # Class: Channel
 
-Defined in: [models/channel.ts:15](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L15)
+Defined in: [models/channel.ts:15](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L15)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/channel.ts:15](https://github.com/iptv-org/sdk/blob/88d645d3
 new Channel(data: ChannelData): Channel;
 ```
 
-Defined in: [models/channel.ts:41](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L41)
+Defined in: [models/channel.ts:41](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L41)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/channel.ts:41](https://github.com/iptv-org/sdk/blob/88d645d3
 id: string;
 ```
 
-Defined in: [models/channel.ts:17](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L17)
+Defined in: [models/channel.ts:17](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L17)
 
 Unique channel ID
 
@@ -42,7 +42,7 @@ Unique channel ID
 name: string;
 ```
 
-Defined in: [models/channel.ts:19](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L19)
+Defined in: [models/channel.ts:19](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L19)
 
 Full name of the channel
 
@@ -54,7 +54,7 @@ Full name of the channel
 alt_names: string[];
 ```
 
-Defined in: [models/channel.ts:21](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L21)
+Defined in: [models/channel.ts:21](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L21)
 
 List of alternative channel names
 
@@ -63,10 +63,10 @@ List of alternative channel names
 ### network
 
 ```ts
-network: null | string;
+network: string | null;
 ```
 
-Defined in: [models/channel.ts:23](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L23)
+Defined in: [models/channel.ts:23](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L23)
 
 Name of the network operating the channel
 
@@ -78,7 +78,7 @@ Name of the network operating the channel
 owners: string[];
 ```
 
-Defined in: [models/channel.ts:25](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L25)
+Defined in: [models/channel.ts:25](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L25)
 
 List of channel owners
 
@@ -90,7 +90,7 @@ List of channel owners
 country: string;
 ```
 
-Defined in: [models/channel.ts:27](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L27)
+Defined in: [models/channel.ts:27](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L27)
 
 Country code from which the broadcast is transmitted ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
 
@@ -102,7 +102,7 @@ Country code from which the broadcast is transmitted ([ISO 3166-1 alpha-2](https
 categories: string[];
 ```
 
-Defined in: [models/channel.ts:29](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L29)
+Defined in: [models/channel.ts:29](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L29)
 
 List of categories to which this channel belongs
 
@@ -114,7 +114,7 @@ List of categories to which this channel belongs
 is_nsfw: boolean;
 ```
 
-Defined in: [models/channel.ts:31](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L31)
+Defined in: [models/channel.ts:31](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L31)
 
 Indicates whether the channel broadcasts adult content
 
@@ -123,10 +123,10 @@ Indicates whether the channel broadcasts adult content
 ### launched
 
 ```ts
-launched: null | string;
+launched: string | null;
 ```
 
-Defined in: [models/channel.ts:33](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L33)
+Defined in: [models/channel.ts:33](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L33)
 
 Launch date of the channel (`YYYY-MM-DD`)
 
@@ -135,10 +135,10 @@ Launch date of the channel (`YYYY-MM-DD`)
 ### closed
 
 ```ts
-closed: null | string;
+closed: string | null;
 ```
 
-Defined in: [models/channel.ts:35](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L35)
+Defined in: [models/channel.ts:35](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L35)
 
 Date on which the channel closed (`YYYY-MM-DD`)
 
@@ -147,10 +147,10 @@ Date on which the channel closed (`YYYY-MM-DD`)
 ### replaced\_by
 
 ```ts
-replaced_by: null | string;
+replaced_by: string | null;
 ```
 
-Defined in: [models/channel.ts:37](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L37)
+Defined in: [models/channel.ts:37](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L37)
 
 The ID of the channel that this channel was replaced by
 
@@ -159,10 +159,10 @@ The ID of the channel that this channel was replaced by
 ### website
 
 ```ts
-website: null | string;
+website: string | null;
 ```
 
-Defined in: [models/channel.ts:39](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L39)
+Defined in: [models/channel.ts:39](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L39)
 
 Official website URL
 
@@ -174,7 +174,7 @@ Official website URL
 isClosed(): boolean;
 ```
 
-Defined in: [models/channel.ts:57](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L57)
+Defined in: [models/channel.ts:57](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L57)
 
 #### Returns
 
@@ -190,7 +190,7 @@ Defined in: [models/channel.ts:57](https://github.com/iptv-org/sdk/blob/88d645d3
 isBlocked(): boolean;
 ```
 
-Defined in: [models/channel.ts:62](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L62)
+Defined in: [models/channel.ts:62](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L62)
 
 #### Returns
 
@@ -203,14 +203,14 @@ Defined in: [models/channel.ts:62](https://github.com/iptv-org/sdk/blob/88d645d3
 ### getCountry()
 
 ```ts
-getCountry(): undefined | Country;
+getCountry(): Country | undefined;
 ```
 
-Defined in: [models/channel.ts:67](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L67)
+Defined in: [models/channel.ts:67](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L67)
 
 #### Returns
 
-`undefined` \| [`Country`](Country.md)
+[`Country`](Country.md) \| `undefined`
 
 Country from which the channel is broadcasting
 
@@ -222,7 +222,7 @@ Country from which the channel is broadcasting
 getCategories(): Collection<Category>;
 ```
 
-Defined in: [models/channel.ts:72](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L72)
+Defined in: [models/channel.ts:72](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L72)
 
 #### Returns
 
@@ -238,7 +238,7 @@ List of all categories of the channel
 getFeeds(): Collection<Feed>;
 ```
 
-Defined in: [models/channel.ts:83](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L83)
+Defined in: [models/channel.ts:83](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L83)
 
 #### Returns
 
@@ -251,14 +251,14 @@ List of all feeds of the channel
 ### getMainFeed()
 
 ```ts
-getMainFeed(): undefined | Feed;
+getMainFeed(): Feed | undefined;
 ```
 
-Defined in: [models/channel.ts:88](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L88)
+Defined in: [models/channel.ts:88](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L88)
 
 #### Returns
 
-`undefined` \| [`Feed`](Feed.md)
+[`Feed`](Feed.md) \| `undefined`
 
 Main feed of the channel
 
@@ -270,7 +270,7 @@ Main feed of the channel
 getBroadcastAreaCodes(): Collection<string>;
 ```
 
-Defined in: [models/channel.ts:93](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L93)
+Defined in: [models/channel.ts:93](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L93)
 
 #### Returns
 
@@ -286,7 +286,7 @@ List of broadcast area codes of the channel
 getBroadcastAreaLocations(): Collection<BroadcastAreaLocation>;
 ```
 
-Defined in: [models/channel.ts:103](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L103)
+Defined in: [models/channel.ts:103](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L103)
 
 #### Returns
 
@@ -302,7 +302,7 @@ List of broadcast area locations of the channel
 getLanguages(): Collection<Language>;
 ```
 
-Defined in: [models/channel.ts:113](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L113)
+Defined in: [models/channel.ts:113](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L113)
 
 #### Returns
 
@@ -318,7 +318,7 @@ List of all languages in which the channel is broadcast
 getTimezones(): Collection<Timezone>;
 ```
 
-Defined in: [models/channel.ts:123](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L123)
+Defined in: [models/channel.ts:123](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L123)
 
 #### Returns
 
@@ -334,7 +334,7 @@ List of all timezones in which the channel is broadcast
 getVideoFormats(): Collection<string>;
 ```
 
-Defined in: [models/channel.ts:133](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L133)
+Defined in: [models/channel.ts:133](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L133)
 
 #### Returns
 
@@ -350,7 +350,7 @@ List of all video formats in which the channel is broadcast
 getLogos(): Collection<Logo>;
 ```
 
-Defined in: [models/channel.ts:143](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L143)
+Defined in: [models/channel.ts:143](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L143)
 
 #### Returns
 
@@ -366,7 +366,7 @@ List of all available logos for the channel
 getStreams(): Collection<Stream>;
 ```
 
-Defined in: [models/channel.ts:148](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L148)
+Defined in: [models/channel.ts:148](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L148)
 
 #### Returns
 
@@ -382,7 +382,7 @@ List of all available streams for the channel
 getGuides(): Collection<Guide>;
 ```
 
-Defined in: [models/channel.ts:153](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L153)
+Defined in: [models/channel.ts:153](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L153)
 
 #### Returns
 
@@ -398,7 +398,7 @@ List of all available guides for the channel
 getBlocklistRecords(): Collection<BlocklistRecord>;
 ```
 
-Defined in: [models/channel.ts:158](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L158)
+Defined in: [models/channel.ts:158](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L158)
 
 #### Returns
 
@@ -414,7 +414,7 @@ List of records in the blocklist associated with the channel
 getSearchable(): ChannelSearchableData;
 ```
 
-Defined in: [models/channel.ts:163](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L163)
+Defined in: [models/channel.ts:163](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L163)
 
 #### Returns
 
@@ -430,7 +430,7 @@ Data used to search for the channel
 toJSON(): string;
 ```
 
-Defined in: [models/channel.ts:274](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L274)
+Defined in: [models/channel.ts:274](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L274)
 
 #### Returns
 
@@ -446,7 +446,7 @@ JSON version of all data
 toObject(): ChannelData;
 ```
 
-Defined in: [models/channel.ts:279](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/channel.ts#L279)
+Defined in: [models/channel.ts:279](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/channel.ts#L279)
 
 #### Returns
 

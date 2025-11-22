@@ -1,6 +1,6 @@
 # Class: BroadcastAreaLocation
 
-Defined in: [models/broadcastAreaLocation.ts:4](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L4)
+Defined in: [models/broadcastAreaLocation.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L4)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/broadcastAreaLocation.ts:4](https://github.com/iptv-org/sdk/
 new BroadcastAreaLocation(data: BroadcastAreaLocationData): BroadcastAreaLocation;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L10)
+Defined in: [models/broadcastAreaLocation.ts:12](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L12)
 
 #### Parameters
 
@@ -24,13 +24,25 @@ Defined in: [models/broadcastAreaLocation.ts:10](https://github.com/iptv-org/sdk
 
 ## Properties
 
+### rawCode
+
+```ts
+rawCode: string;
+```
+
+Defined in: [models/broadcastAreaLocation.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L6)
+
+Raw code of the location *
+
+***
+
 ### code
 
 ```ts
 code: string;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:6](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L6)
+Defined in: [models/broadcastAreaLocation.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L8)
 
 Code of the location
 
@@ -42,7 +54,7 @@ Code of the location
 type: string;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:8](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L8)
+Defined in: [models/broadcastAreaLocation.ts:10](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L10)
 
 Type of the location
 
@@ -51,14 +63,14 @@ Type of the location
 ### getName()
 
 ```ts
-getName(): undefined | string;
+getName(): string | undefined;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:25](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L25)
+Defined in: [models/broadcastAreaLocation.ts:29](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L29)
 
 #### Returns
 
-`undefined` \| `string`
+`string` \| `undefined`
 
 Name of the location
 
@@ -70,7 +82,7 @@ Name of the location
 toJSON(): string;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:49](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L49)
+Defined in: [models/broadcastAreaLocation.ts:53](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L53)
 
 #### Returns
 
@@ -86,7 +98,7 @@ JSON version of all data
 toObject(): BroadcastAreaLocationData;
 ```
 
-Defined in: [models/broadcastAreaLocation.ts:54](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/broadcastAreaLocation.ts#L54)
+Defined in: [models/broadcastAreaLocation.ts:58](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastAreaLocation.ts#L58)
 
 #### Returns
 

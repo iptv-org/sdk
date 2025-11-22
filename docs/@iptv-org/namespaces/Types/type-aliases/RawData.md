@@ -4,4 +4,4 @@
 type RawData = Record<string, ModelData[]>;
 ```
 
-Defined in: [types/dataProcessor.d.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/types/dataProcessor.d.ts#L16)
+Defined in: [types/dataProcessor.d.ts:16](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/dataProcessor.d.ts#L16)

@@ -1,6 +1,6 @@
 # Class: City
 
-Defined in: [models/city.ts:8](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L8)
+Defined in: [models/city.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L8)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/city.ts:8](https://github.com/iptv-org/sdk/blob/88d645d3373c
 new City(data: CityData): City;
 ```
 
-Defined in: [models/city.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L20)
+Defined in: [models/city.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L20)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/city.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373
 country: string;
 ```
 
-Defined in: [models/city.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L10)
+Defined in: [models/city.ts:10](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L10)
 
 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country where the city is located
 
@@ -39,10 +39,10 @@ Defined in: [models/city.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373
 ### subdivision
 
 ```ts
-subdivision: null | string;
+subdivision: string | null;
 ```
 
-Defined in: [models/city.ts:12](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L12)
+Defined in: [models/city.ts:12](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L12)
 
 [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision where the city is located
 
@@ -54,7 +54,7 @@ Defined in: [models/city.ts:12](https://github.com/iptv-org/sdk/blob/88d645d3373
 name: string;
 ```
 
-Defined in: [models/city.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L14)
+Defined in: [models/city.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L14)
 
 City name
 
@@ -66,7 +66,7 @@ City name
 code: string;
 ```
 
-Defined in: [models/city.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L16)
+Defined in: [models/city.ts:16](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L16)
 
 [UN/LOCODE](https://en.wikipedia.org/wiki/UN/LOCODE) of the city
 
@@ -78,7 +78,7 @@ Defined in: [models/city.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373
 wikidata_id: string;
 ```
 
-Defined in: [models/city.ts:18](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L18)
+Defined in: [models/city.ts:18](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L18)
 
 ID of this city in [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 
@@ -87,14 +87,14 @@ ID of this city in [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 ### getCountry()
 
 ```ts
-getCountry(): undefined | Country;
+getCountry(): Country | undefined;
 ```
 
-Defined in: [models/city.ts:29](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L29)
+Defined in: [models/city.ts:29](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L29)
 
 #### Returns
 
-`undefined` \| [`Country`](Country.md)
+[`Country`](Country.md) \| `undefined`
 
 Country in which the city is located
 
@@ -103,14 +103,14 @@ Country in which the city is located
 ### getSubdivision()
 
 ```ts
-getSubdivision(): undefined | Subdivision;
+getSubdivision(): Subdivision | undefined;
 ```
 
-Defined in: [models/city.ts:34](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L34)
+Defined in: [models/city.ts:34](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L34)
 
 #### Returns
 
-`undefined` \| [`Subdivision`](Subdivision.md)
+[`Subdivision`](Subdivision.md) \| `undefined`
 
 Subdivision in which the city is located
 
@@ -122,7 +122,7 @@ Subdivision in which the city is located
 getRegions(): Collection<Region>;
 ```
 
-Defined in: [models/city.ts:41](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L41)
+Defined in: [models/city.ts:41](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L41)
 
 #### Returns
 
@@ -138,7 +138,7 @@ List of regions in which the city is located
 toJSON(): string;
 ```
 
-Defined in: [models/city.ts:46](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L46)
+Defined in: [models/city.ts:46](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L46)
 
 #### Returns
 
@@ -154,7 +154,7 @@ JSON version of all data
 toObject(): CityData;
 ```
 
-Defined in: [models/city.ts:51](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/city.ts#L51)
+Defined in: [models/city.ts:51](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/city.ts#L51)
 
 #### Returns
 

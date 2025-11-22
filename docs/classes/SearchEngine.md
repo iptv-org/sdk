@@ -1,6 +1,6 @@
 # Class: SearchEngine
 
-Defined in: [core/searchEngine.ts:4](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/searchEngine.ts#L4)
+Defined in: [core/searchEngine.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/searchEngine.ts#L4)
 
 ## Constructors
 
@@ -22,7 +22,7 @@ new SearchEngine(): SearchEngine;
 static createIndex<Type>(items: Collection<Type>, searchable?: string[]): any;
 ```
 
-Defined in: [core/searchEngine.ts:5](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/core/searchEngine.ts#L5)
+Defined in: [core/searchEngine.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/core/searchEngine.ts#L5)
 
 #### Type Parameters
 

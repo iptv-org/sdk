@@ -1,6 +1,6 @@
 # Class: Logo
 
-Defined in: [models/logo.ts:6](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L6)
+Defined in: [models/logo.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L6)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/logo.ts:6](https://github.com/iptv-org/sdk/blob/88d645d3373c
 new Logo(data: LogoData): Logo;
 ```
 
-Defined in: [models/logo.ts:22](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L22)
+Defined in: [models/logo.ts:22](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L22)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/logo.ts:22](https://github.com/iptv-org/sdk/blob/88d645d3373
 channel: string;
 ```
 
-Defined in: [models/logo.ts:8](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L8)
+Defined in: [models/logo.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L8)
 
 Channel ID
 
@@ -39,10 +39,10 @@ Channel ID
 ### feed
 
 ```ts
-feed: null | string;
+feed: string | null;
 ```
 
-Defined in: [models/logo.ts:10](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L10)
+Defined in: [models/logo.ts:10](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L10)
 
 Feed ID
 
@@ -54,7 +54,7 @@ Feed ID
 tags: string[];
 ```
 
-Defined in: [models/logo.ts:12](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L12)
+Defined in: [models/logo.ts:12](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L12)
 
 List of keywords describing this version of the logo
 
@@ -66,7 +66,7 @@ List of keywords describing this version of the logo
 width: number;
 ```
 
-Defined in: [models/logo.ts:14](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L14)
+Defined in: [models/logo.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L14)
 
 The width of the image in pixels
 
@@ -78,7 +78,7 @@ The width of the image in pixels
 height: number;
 ```
 
-Defined in: [models/logo.ts:16](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L16)
+Defined in: [models/logo.ts:16](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L16)
 
 The height of the image in pixels
 
@@ -87,10 +87,10 @@ The height of the image in pixels
 ### format
 
 ```ts
-format: null | string;
+format: string | null;
 ```
 
-Defined in: [models/logo.ts:18](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L18)
+Defined in: [models/logo.ts:18](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L18)
 
 Image format (one of: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`)
 
@@ -102,7 +102,7 @@ Image format (one of: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`)
 url: string;
 ```
 
-Defined in: [models/logo.ts:20](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L20)
+Defined in: [models/logo.ts:20](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L20)
 
 Logo URL
 
@@ -111,14 +111,14 @@ Logo URL
 ### getChannel()
 
 ```ts
-getChannel(): undefined | Channel;
+getChannel(): Channel | undefined;
 ```
 
-Defined in: [models/logo.ts:33](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L33)
+Defined in: [models/logo.ts:33](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L33)
 
 #### Returns
 
-`undefined` \| [`Channel`](Channel.md)
+[`Channel`](Channel.md) \| `undefined`
 
 Channel associated with the logo
 
@@ -127,14 +127,14 @@ Channel associated with the logo
 ### getFeed()
 
 ```ts
-getFeed(): undefined | Feed;
+getFeed(): Feed | undefined;
 ```
 
-Defined in: [models/logo.ts:38](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L38)
+Defined in: [models/logo.ts:38](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L38)
 
 #### Returns
 
-`undefined` \| [`Feed`](Feed.md)
+[`Feed`](Feed.md) \| `undefined`
 
 Feed associated with the logo
 
@@ -146,7 +146,7 @@ Feed associated with the logo
 getStreamId(): string;
 ```
 
-Defined in: [models/logo.ts:43](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L43)
+Defined in: [models/logo.ts:43](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L43)
 
 #### Returns
 
@@ -162,7 +162,7 @@ Stream ID for the logo
 toJSON(): string;
 ```
 
-Defined in: [models/logo.ts:50](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L50)
+Defined in: [models/logo.ts:50](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L50)
 
 #### Returns
 
@@ -178,7 +178,7 @@ JSON version of all data
 toObject(): LogoData;
 ```
 
-Defined in: [models/logo.ts:55](https://github.com/iptv-org/sdk/blob/88d645d3373c4ec810ba0ec144ac251980f41667/src/models/logo.ts#L55)
+Defined in: [models/logo.ts:55](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/logo.ts#L55)
 
 #### Returns
 
