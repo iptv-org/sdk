@@ -10,9 +10,9 @@ import {
   Language,
   Logo,
   Stream,
-  Timezone
+  Timezone,
+  BroadcastAreaLocation
 } from '../../src/models'
-import { BroadcastAreaLocation } from '../../src/models/broadcastAreaLocation'
 
 let channel: Channel
 
@@ -137,6 +137,11 @@ describe('Channel', () => {
   test('getBlocklistRecords()', () => {
     expect(channel.getBlocklistRecords().count()).toBe(1)
     expect(channel.getBlocklistRecords().first()).instanceOf(BlocklistRecord)
+  })
+
+  test('getBroadcastAreaCodes()', () => {
+    expect(channel.getBroadcastAreaCodes().count()).toBe(1)
+    expect(channel.getBroadcastAreaCodes().first()).toBe('ct/ADCAN')
   })
 
   test('getBroadcastAreaLocations()', () => {

@@ -28,7 +28,7 @@ describe('Category', () => {
     )
   })
 
-  test('data()', () => {
+  test('toObject()', () => {
     expect(category.toObject()).toMatchObject({
       id: 'auto',
       name: 'Auto',

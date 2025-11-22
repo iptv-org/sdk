@@ -2,18 +2,15 @@ import { beforeAll, describe, expect, test } from 'vitest'
 import { DataManager } from '../../src/core/dataManager'
 import {
   Channel,
-  City,
-  Country,
   Feed,
   Guide,
   Language,
   Logo,
-  Region,
   Stream,
-  Subdivision,
-  Timezone
+  Timezone,
+  BroadcastArea,
+  BroadcastAreaLocation
 } from '../../src/models'
-import { BroadcastAreaLocation } from '../../src/models/broadcastAreaLocation'
 
 let feed: Feed
 
@@ -94,6 +91,20 @@ describe('Feed', () => {
 
   test('getFullName()', () => {
     expect(feed.getFullName()).toBe('Andorra TV SD')
+  })
+
+  test('getBroadcastArea()', () => {
+    expect(feed.getBroadcastArea()).instanceOf(BroadcastArea)
+  })
+
+  test('getBroadcastAreaCodes()', () => {
+    expect(feed.getBroadcastAreaCodes().count()).toBe(1)
+    expect(feed.getBroadcastAreaCodes().first()).toBe('ct/ADCAN')
+  })
+
+  test('getBroadcastAreaLocations()', () => {
+    expect(feed.getBroadcastAreaLocations().count()).toBe(1)
+    expect(feed.getBroadcastAreaLocations().first()).instanceOf(BroadcastAreaLocation)
   })
 
   test('toObject()', () => {
