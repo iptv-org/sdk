@@ -2,12 +2,16 @@ import { BroadcastAreaLocationData } from '../types/broadcastAreaLocation'
 import store from '../store'
 
 export class BroadcastAreaLocation {
+  /** Raw code of the location **/
+  rawCode: string
   /** Code of the location */
   code: string
   /** Type of the location */
   type: string
 
   constructor(data: BroadcastAreaLocationData) {
+    this.rawCode = data.code
+
     const [type, code] = data.code.split('/')
 
     const types: Record<string, string> = {
@@ -53,7 +57,7 @@ export class BroadcastAreaLocation {
   /** @returns JS object with all data */
   toObject(): BroadcastAreaLocationData {
     return {
-      code: this.code
+      code: this.rawCode
     }
   }
 }
