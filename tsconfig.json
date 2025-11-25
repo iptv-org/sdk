@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "target": "ES2022",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "module": "Preserve",
     "resolveJsonModule": true,
     "strict": true,
+    "noEmit": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-  },
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  }
 }
