@@ -12,7 +12,7 @@ type LogoData = {
 };
 ```
 
-Defined in: [types/logo.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L1)
+Defined in: [types/logo.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L1)
 
 ## Properties
 
@@ -22,7 +22,7 @@ Defined in: [types/logo.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 channel: string;
 ```
 
-Defined in: [types/logo.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L2)
+Defined in: [types/logo.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L2)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [types/logo.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 feed: string | null;
 ```
 
-Defined in: [types/logo.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L3)
+Defined in: [types/logo.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L3)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [types/logo.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 tags: string[];
 ```
 
-Defined in: [types/logo.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L4)
+Defined in: [types/logo.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L4)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [types/logo.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 width: number;
 ```
 
-Defined in: [types/logo.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L5)
+Defined in: [types/logo.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L5)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types/logo.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 height: number;
 ```
 
-Defined in: [types/logo.d.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L6)
+Defined in: [types/logo.d.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L6)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [types/logo.d.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 format: string | null;
 ```
 
-Defined in: [types/logo.d.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L7)
+Defined in: [types/logo.d.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L7)
 
 ***
 
@@ -82,4 +82,4 @@ Defined in: [types/logo.d.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 url: string;
 ```
 
-Defined in: [types/logo.d.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/logo.d.ts#L8)
+Defined in: [types/logo.d.ts:8](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/logo.d.ts#L8)

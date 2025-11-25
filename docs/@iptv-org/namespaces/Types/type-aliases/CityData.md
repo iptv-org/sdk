@@ -10,7 +10,7 @@ type CityData = {
 };
 ```
 
-Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L1)
+Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L1)
 
 ## Properties
 
@@ -20,7 +20,7 @@ Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 code: string;
 ```
 
-Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L2)
+Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L2)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 name: string;
 ```
 
-Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L3)
+Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L3)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 country: string;
 ```
 
-Defined in: [types/city.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L4)
+Defined in: [types/city.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L4)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [types/city.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 optional subdivision: string | null;
 ```
 
-Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L5)
+Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L5)
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc
 wikidata_id: string;
 ```
 
-Defined in: [types/city.d.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/city.d.ts#L6)
+Defined in: [types/city.d.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/city.d.ts#L6)

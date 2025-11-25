@@ -1,6 +1,6 @@
 # Class: BroadcastArea
 
-Defined in: [models/broadcastArea.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L5)
+Defined in: [models/broadcastArea.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L5)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/broadcastArea.ts:5](https://github.com/iptv-org/sdk/blob/d54
 new BroadcastArea(data: BroadcastAreaData): BroadcastArea;
 ```
 
-Defined in: [models/broadcastArea.ts:9](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L9)
+Defined in: [models/broadcastArea.ts:9](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L9)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/broadcastArea.ts:9](https://github.com/iptv-org/sdk/blob/d54
 codes: string[];
 ```
 
-Defined in: [models/broadcastArea.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L7)
+Defined in: [models/broadcastArea.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L7)
 
 List of codes describing the broadcasting area (`r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>`)
 
@@ -42,7 +42,7 @@ List of codes describing the broadcasting area (`r/<region_code>`, `c/<country_c
 getLocations(): Collection<BroadcastAreaLocation>;
 ```
 
-Defined in: [models/broadcastArea.ts:14](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L14)
+Defined in: [models/broadcastArea.ts:14](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L14)
 
 #### Returns
 
@@ -58,7 +58,7 @@ List of locations describing the broadcasting area
 toJSON(): string;
 ```
 
-Defined in: [models/broadcastArea.ts:21](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L21)
+Defined in: [models/broadcastArea.ts:21](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L21)
 
 #### Returns
 
@@ -74,7 +74,7 @@ JSON version of all data
 toObject(): BroadcastAreaData;
 ```
 
-Defined in: [models/broadcastArea.ts:26](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/broadcastArea.ts#L26)
+Defined in: [models/broadcastArea.ts:26](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/broadcastArea.ts#L26)
 
 #### Returns
 

@@ -11,7 +11,7 @@ type GuideData = {
 };
 ```
 
-Defined in: [types/guide.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L1)
+Defined in: [types/guide.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L1)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Defined in: [types/guide.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cd
 channel: string | null;
 ```
 
-Defined in: [types/guide.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L2)
+Defined in: [types/guide.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L2)
 
 ***
 
@@ -31,7 +31,7 @@ Defined in: [types/guide.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cd
 feed: string | null;
 ```
 
-Defined in: [types/guide.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L3)
+Defined in: [types/guide.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L3)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [types/guide.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cd
 site: string;
 ```
 
-Defined in: [types/guide.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L4)
+Defined in: [types/guide.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L4)
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: [types/guide.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cd
 site_id: string;
 ```
 
-Defined in: [types/guide.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L5)
+Defined in: [types/guide.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L5)
 
 ***
 
@@ -61,7 +61,7 @@ Defined in: [types/guide.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cd
 site_name: string;
 ```
 
-Defined in: [types/guide.d.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L6)
+Defined in: [types/guide.d.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L6)
 
 ***
 
@@ -71,4 +71,4 @@ Defined in: [types/guide.d.ts:6](https://github.com/iptv-org/sdk/blob/d542ea92cd
 lang: string;
 ```
 
-Defined in: [types/guide.d.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/guide.d.ts#L7)
+Defined in: [types/guide.d.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/guide.d.ts#L7)

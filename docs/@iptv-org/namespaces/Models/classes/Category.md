@@ -1,6 +1,6 @@
 # Class: Category
 
-Defined in: [models/category.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L3)
+Defined in: [models/category.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L3)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/category.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92
 new Category(data: CategoryData): Category;
 ```
 
-Defined in: [models/category.ts:11](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L11)
+Defined in: [models/category.ts:11](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L11)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/category.ts:11](https://github.com/iptv-org/sdk/blob/d542ea9
 id: string;
 ```
 
-Defined in: [models/category.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L5)
+Defined in: [models/category.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L5)
 
 Category ID
 
@@ -42,7 +42,7 @@ Category ID
 name: string;
 ```
 
-Defined in: [models/category.ts:7](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L7)
+Defined in: [models/category.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L7)
 
 Name of the category
 
@@ -54,7 +54,7 @@ Name of the category
 description: string;
 ```
 
-Defined in: [models/category.ts:9](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L9)
+Defined in: [models/category.ts:9](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L9)
 
 Short description of the category
 
@@ -66,7 +66,7 @@ Short description of the category
 toJSON(): string;
 ```
 
-Defined in: [models/category.ts:18](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L18)
+Defined in: [models/category.ts:18](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L18)
 
 #### Returns
 
@@ -82,7 +82,7 @@ JSON version of all data
 toObject(): CategoryData;
 ```
 
-Defined in: [models/category.ts:23](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/models/category.ts#L23)
+Defined in: [models/category.ts:23](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/category.ts#L23)
 
 #### Returns
 

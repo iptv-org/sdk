@@ -9,7 +9,7 @@ type CountryData = {
 };
 ```
 
-Defined in: [types/country.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/country.d.ts#L1)
+Defined in: [types/country.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/country.d.ts#L1)
 
 ## Properties
 
@@ -19,7 +19,7 @@ Defined in: [types/country.d.ts:1](https://github.com/iptv-org/sdk/blob/d542ea92
 code: string;
 ```
 
-Defined in: [types/country.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/country.d.ts#L2)
+Defined in: [types/country.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/country.d.ts#L2)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [types/country.d.ts:2](https://github.com/iptv-org/sdk/blob/d542ea92
 name: string;
 ```
 
-Defined in: [types/country.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/country.d.ts#L3)
+Defined in: [types/country.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/country.d.ts#L3)
 
 ***
 
@@ -39,7 +39,7 @@ Defined in: [types/country.d.ts:3](https://github.com/iptv-org/sdk/blob/d542ea92
 languages: string[];
 ```
 
-Defined in: [types/country.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/country.d.ts#L4)
+Defined in: [types/country.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/country.d.ts#L4)
 
 ***
 
@@ -49,4 +49,4 @@ Defined in: [types/country.d.ts:4](https://github.com/iptv-org/sdk/blob/d542ea92
 flag: string;
 ```
 
-Defined in: [types/country.d.ts:5](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/types/country.d.ts#L5)
+Defined in: [types/country.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/country.d.ts#L5)

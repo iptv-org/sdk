@@ -6,7 +6,7 @@ default: {
 };
 ```
 
-Defined in: [index.ts:8](https://github.com/iptv-org/sdk/blob/d542ea92cdc8fe123fd822281ef03e5c8cacb037/src/index.ts#L8)
+Defined in: [index.ts:8](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/index.ts#L8)
 
 ## Type Declaration
 
