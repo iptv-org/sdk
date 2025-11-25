@@ -1,13 +1,7 @@
-import { BroadcastAreaLocation } from './broadcastAreaLocation'
+import type { Timezone, Language, Channel, Stream, Guide, Logo, BroadcastAreaLocation } from './'
 import { BroadcastArea } from './broadcastArea'
 import { Collection } from '@freearhey/core'
-import { Timezone } from './timezone'
-import { Language } from './language'
-import { FeedData } from '../types'
-import { Channel } from './channel'
-import { Stream } from './stream'
-import { Guide } from './guide'
-import { Logo } from './logo'
+import type { FeedData } from '../types'
 import store from '../store'
 
 export class Feed {

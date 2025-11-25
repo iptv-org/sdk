@@ -1,8 +1,8 @@
+import type { Subdivision } from './subdivision'
 import { Collection } from '@freearhey/core'
-import { Subdivision } from './subdivision'
-import { CityData } from '../types'
-import { Country } from './country'
-import { Region } from './region'
+import type { CityData } from '../types'
+import type { Country } from './country'
+import type { Region } from './region'
 import store from '../store'
 
 export class City {

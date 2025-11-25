@@ -1,10 +1,9 @@
-import { Collection } from '@freearhey/core'
 import { Subdivision } from './subdivision'
-import { CountryData } from '../types'
+import { Collection } from '@freearhey/core'
+import type { CountryData } from '../types'
+import type { City, Channel } from './'
 import { Language } from './language'
-import { Channel } from './channel'
 import { Region } from './region'
-import { City } from './city'
 import store from '../store'
 
 export class Country {

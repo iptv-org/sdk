@@ -1,5 +1,5 @@
-import { BlocklistRecordData } from '../types'
-import { Channel } from './channel'
+import type { BlocklistRecordData } from '../types'
+import type { Channel } from './channel'
 import store from '../store'
 
 export class BlocklistRecord {

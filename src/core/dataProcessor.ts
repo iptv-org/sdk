@@ -1,4 +1,4 @@
-import { ProcessedData, RawData } from '../types/dataProcessor'
+import type { ProcessedData, RawData } from '../types/dataProcessor'
 import { Collection } from '@freearhey/core'
 import store from '../store'
 import {

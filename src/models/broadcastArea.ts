@@ -1,5 +1,5 @@
+import type { BroadcastAreaData } from '../types/broadcastArea'
 import { BroadcastAreaLocation } from './broadcastAreaLocation'
-import { BroadcastAreaData } from '../types/broadcastArea'
 import { Collection } from '@freearhey/core'
 
 export class BroadcastArea {

@@ -1,4 +1,4 @@
-import { BroadcastAreaLocationData } from '../types/broadcastAreaLocation'
+import type { BroadcastAreaLocationData } from '../types/broadcastAreaLocation'
 import store from '../store'
 
 export class BroadcastAreaLocation {

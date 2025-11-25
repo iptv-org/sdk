@@ -1,6 +1,6 @@
 import { Collection } from '@freearhey/core'
-import { TimezoneData } from '../types'
-import { Country } from './country'
+import type { TimezoneData } from '../types'
+import type { Country } from './country'
 import store from '../store'
 
 export class Timezone {

@@ -1,6 +1,6 @@
-import { LogoData } from '../types'
-import { Channel } from './channel'
-import { Feed } from './feed'
+import type { LogoData } from '../types'
+import type { Channel } from './channel'
+import type { Feed } from './feed'
 import store from '../store'
 
 export class Logo {

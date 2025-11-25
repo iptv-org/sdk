@@ -1,4 +1,4 @@
-import { LanguageData } from '../types'
+import type { LanguageData } from '../types'
 
 export class Language {
   /** Language name */

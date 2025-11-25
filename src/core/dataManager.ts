@@ -1,5 +1,5 @@
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios'
-import { ProcessedData, RawData } from '../types/dataProcessor'
+import axios, { type AxiosInstance, type AxiosRequestConfig } from 'axios'
+import type { ProcessedData, RawData } from '../types/dataProcessor'
 import { DataProcessor } from './dataProcessor'
 import { Collection } from '@freearhey/core'
 import doFetch from '@ntlab/sfetch'

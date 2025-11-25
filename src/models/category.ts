@@ -1,4 +1,4 @@
-import { CategoryData } from '../types'
+import type { CategoryData } from '../types'
 
 export class Category {
   /** Category ID */

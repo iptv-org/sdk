@@ -1,5 +1,5 @@
 import { Collection, Dictionary } from '@freearhey/core'
-import {
+import type {
   Category,
   Channel,
   City,

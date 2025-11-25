@@ -1,6 +1,6 @@
+import type { ChannelSearchableData } from '../types/channel'
+import type { ProcessedData } from '../types/dataProcessor'
 import { Collection, Dictionary } from '@freearhey/core'
-import { ChannelSearchableData } from '../types/channel'
-import { ProcessedData } from '../types/dataProcessor'
 import { SearchEngine } from './searchEngine'
 import { DataManager } from './dataManager'
 import { Channel } from '../models'
@@ -40,7 +40,7 @@ export class Client {
 
     const searchableData = channels.map((channel: Channel) => channel.getSearchable())
 
-    this.#searchIndex = SearchEngine.createIndex<ChannelSearchableData>(searchableData)
+    this.#searchIndex = SearchEngine.createIndex<ChannelSearchableData>(searchableData.all())
   }
 
   getData(): ProcessedData {

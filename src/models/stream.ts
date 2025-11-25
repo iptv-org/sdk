@@ -1,10 +1,6 @@
+import type { Category, Language, Channel, Feed, Logo } from './'
 import { Collection } from '@freearhey/core'
-import { StreamData } from '../types'
-import { Category } from './category'
-import { Language } from './language'
-import { Channel } from './channel'
-import { Feed } from './feed'
-import { Logo } from './logo'
+import type { StreamData } from '../types'
 import store from '../store'
 
 export class Stream {
