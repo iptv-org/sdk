@@ -38,7 +38,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@freearhey/core": "^0.15.0",
+    "@freearhey/core": "^0.15.1",
     "@freearhey/search-js": "^0.2.0",
     "@ntlab/sfetch": "^1.2.0",
     "axios": "^1.11.0",
