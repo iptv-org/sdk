@@ -98,18 +98,7 @@
   {
     "channel": "FoxSports2.us",
     "id": "Asia",
-    "name": "Asia",
-    "is_main": false,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
-    "timezones": [
-      "America/Port_of_Spain"
-    ],
-    "format": "576i"
+    "name": "Asia"
   },
   {
     "channel": "LDPRTV.ru",
