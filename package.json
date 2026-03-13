@@ -23,7 +23,7 @@
   "scripts": {
     "build": "pkgroll --clean-dist",
     "dev": "pkgroll --watch",
-    "test": "vitest run",
+    "test": "vitest run --no-file-parallelism",
     "docs": "npx typedoc"
   },
   "devDependencies": {
