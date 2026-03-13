@@ -158,7 +158,7 @@ describe('Client', () => {
     it('can find channels without the owner', () => {
       let results = client.searchChannels('owners:/^$/')
 
-      expect(results.count()).toBe(23)
+      expect(results.count()).toBe(24)
       expect(results.first()).toMatchObject({
         id: 'BBCNews.uk'
       })
