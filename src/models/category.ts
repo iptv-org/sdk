@@ -9,9 +9,9 @@ export class Category {
   description: string
 
   constructor(data: CategoryData) {
-    this.id = data.id
-    this.name = data.name
-    this.description = data.description
+    this.id = data.id || ''
+    this.name = data.name || ''
+    this.description = data.description || ''
   }
 
   /** @returns JSON version of all data */

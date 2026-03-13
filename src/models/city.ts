@@ -18,11 +18,11 @@ export class City {
   wikidata_id: string
 
   constructor(data: CityData) {
-    this.country = data.country
+    this.country = data.country || ''
     this.subdivision = data.subdivision || null
-    this.name = data.name
-    this.code = data.code
-    this.wikidata_id = data.wikidata_id
+    this.name = data.name || ''
+    this.code = data.code || ''
+    this.wikidata_id = data.wikidata_id || ''
   }
 
   /** @returns Country in which the city is located */

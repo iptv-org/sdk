@@ -11,9 +11,9 @@ export class BlocklistRecord {
   ref: string
 
   constructor(data: BlocklistRecordData) {
-    this.channel = data.channel
-    this.reason = data.reason
-    this.ref = data.ref
+    this.channel = data.channel || ''
+    this.reason = data.reason || ''
+    this.ref = data.ref || ''
   }
 
   /** @returns Channel associated with this record in the blocklist */

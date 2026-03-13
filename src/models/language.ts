@@ -7,8 +7,8 @@ export class Language {
   code: string
 
   constructor(data: LanguageData) {
-    this.name = data.name
-    this.code = data.code
+    this.name = data.name || ''
+    this.code = data.code || ''
   }
 
   /** @returns JSON version of all data */

@@ -20,13 +20,13 @@ export class Stream {
   quality: string | null
 
   constructor(data: StreamData) {
-    this.channel = data.channel
-    this.feed = data.feed
-    this.title = data.title
-    this.url = data.url
-    this.referrer = data.referrer
-    this.user_agent = data.user_agent
-    this.quality = data.quality
+    this.channel = data.channel || null
+    this.feed = data.feed || null
+    this.title = data.title || ''
+    this.url = data.url || ''
+    this.referrer = data.referrer || null
+    this.user_agent = data.user_agent || null
+    this.quality = data.quality || null
   }
 
   /** @returns Stream ID */

@@ -18,12 +18,12 @@ export class Guide {
   lang: string
 
   constructor(data: GuideData) {
-    this.channel = data.channel
-    this.feed = data.feed
-    this.site = data.site
-    this.site_id = data.site_id
-    this.site_name = data.site_name
-    this.lang = data.lang
+    this.channel = data.channel || null
+    this.feed = data.feed || null
+    this.site = data.site || ''
+    this.site_id = data.site_id || ''
+    this.site_name = data.site_name || ''
+    this.lang = data.lang || ''
   }
 
   /** @returns Channel associated with the guide */

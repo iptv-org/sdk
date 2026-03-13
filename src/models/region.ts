@@ -12,9 +12,9 @@ export class Region {
   countries: string[]
 
   constructor(data: RegionData) {
-    this.code = data.code
-    this.name = data.name
-    this.countries = data.countries
+    this.code = data.code || ''
+    this.name = data.name || ''
+    this.countries = data.countries || []
   }
 
   /** @returns List of regions related to the region */

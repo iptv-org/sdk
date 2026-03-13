@@ -17,10 +17,10 @@ export class Country {
   flag: string
 
   constructor(data: CountryData) {
-    this.name = data.name
-    this.code = data.code
-    this.languages = data.languages
-    this.flag = data.flag
+    this.name = data.name || ''
+    this.code = data.code || ''
+    this.languages = data.languages || []
+    this.flag = data.flag || ''
   }
 
   /** @returns List of official languages of the country */

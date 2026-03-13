@@ -20,13 +20,13 @@ export class Logo {
   url: string
 
   constructor(data: LogoData) {
-    this.channel = data.channel
-    this.feed = data.feed
-    this.tags = data.tags
-    this.width = data.width
-    this.height = data.height
-    this.format = data.format
-    this.url = data.url
+    this.channel = data.channel || ''
+    this.feed = data.feed || null
+    this.tags = data.tags || []
+    this.width = data.width || 0
+    this.height = data.height || 0
+    this.format = data.format || null
+    this.url = data.url || ''
   }
 
   /** @returns Channel associated with the logo */

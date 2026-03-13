@@ -14,10 +14,10 @@ export class Subdivision {
   parent: string | null
 
   constructor(data: SubdivisionData) {
-    this.country = data.country
-    this.name = data.name
-    this.code = data.code
-    this.parent = data.parent
+    this.country = data.country || ''
+    this.name = data.name || ''
+    this.code = data.code || ''
+    this.parent = data.parent || null
   }
 
   /** @returns Country in which the subdivision is located */

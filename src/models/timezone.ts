@@ -12,9 +12,9 @@ export class Timezone {
   countries: string[]
 
   constructor(data: TimezoneData) {
-    this.id = data.id
-    this.utc_offset = data.utc_offset
-    this.countries = data.countries
+    this.id = data.id || ''
+    this.utc_offset = data.utc_offset || ''
+    this.countries = data.countries || []
   }
 
   /** @returns List of countries included in the time zone */

@@ -10,9 +10,9 @@ export class BroadcastAreaLocation {
   type: string
 
   constructor(data: BroadcastAreaLocationData) {
-    this.rawCode = data.code
+    this.rawCode = data.code || ''
 
-    const [type, code] = data.code.split('/')
+    const [type, code] = this.rawCode.split('/')
 
     const types: Record<string, string> = {
       ct: 'city',
@@ -21,8 +21,8 @@ export class BroadcastAreaLocation {
       r: 'region'
     }
 
-    this.type = types[type]
-    this.code = code
+    this.type = types[type] || ''
+    this.code = code || ''
   }
 
   /** @returns Name of the location */

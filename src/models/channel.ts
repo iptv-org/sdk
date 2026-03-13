@@ -39,18 +39,18 @@ export class Channel {
   website: string | null
 
   constructor(data: ChannelData) {
-    this.id = data.id
-    this.name = data.name
-    this.alt_names = data.alt_names
-    this.network = data.network
-    this.owners = data.owners
-    this.country = data.country
-    this.categories = data.categories
-    this.is_nsfw = data.is_nsfw
-    this.launched = data.launched
-    this.closed = data.closed
-    this.replaced_by = data.replaced_by
-    this.website = data.website
+    this.id = data.id || ''
+    this.name = data.name || ''
+    this.alt_names = data.alt_names || []
+    this.network = data.network || null
+    this.owners = data.owners || []
+    this.country = data.country || ''
+    this.categories = data.categories || []
+    this.is_nsfw = data.is_nsfw || false
+    this.launched = data.launched || null
+    this.closed = data.closed || null
+    this.replaced_by = data.replaced_by || null
+    this.website = data.website || null
   }
 
   /** @returns `true` if the channel is marked as "closed" */

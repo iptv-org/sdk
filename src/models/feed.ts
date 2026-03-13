@@ -25,15 +25,15 @@ export class Feed {
   format: string
 
   constructor(data: FeedData) {
-    this.channel = data.channel
-    this.id = data.id
-    this.name = data.name
-    this.alt_names = data.alt_names
-    this.is_main = data.is_main
-    this.broadcast_area = data.broadcast_area
-    this.languages = data.languages
-    this.timezones = data.timezones
-    this.format = data.format
+    this.channel = data.channel || ''
+    this.id = data.id || ''
+    this.name = data.name || ''
+    this.alt_names = data.alt_names || []
+    this.is_main = data.is_main || false
+    this.broadcast_area = data.broadcast_area || []
+    this.languages = data.languages || []
+    this.timezones = data.timezones || []
+    this.format = data.format || ''
   }
 
   /** @returns Stream ID for the feed */
