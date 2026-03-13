@@ -6,7 +6,7 @@ type BroadcastAreaData = {
 };
 ```
 
-Defined in: [types/broadcastArea.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/broadcastArea.d.ts#L1)
+Defined in: [types/broadcastArea.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/broadcastArea.d.ts#L1)
 
 ## Properties
 
@@ -16,4 +16,4 @@ Defined in: [types/broadcastArea.d.ts:1](https://github.com/iptv-org/sdk/blob/34
 codes: string[];
 ```
 
-Defined in: [types/broadcastArea.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/broadcastArea.d.ts#L2)
+Defined in: [types/broadcastArea.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/broadcastArea.d.ts#L2)

@@ -14,7 +14,7 @@ type FeedData = {
 };
 ```
 
-Defined in: [types/feed.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L1)
+Defined in: [types/feed.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L1)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Defined in: [types/feed.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d9
 channel: string;
 ```
 
-Defined in: [types/feed.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L2)
+Defined in: [types/feed.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L2)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/feed.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d9
 id: string;
 ```
 
-Defined in: [types/feed.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L3)
+Defined in: [types/feed.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L3)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [types/feed.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d9
 name: string;
 ```
 
-Defined in: [types/feed.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L4)
+Defined in: [types/feed.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L4)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/feed.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d9
 alt_names: string[];
 ```
 
-Defined in: [types/feed.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L5)
+Defined in: [types/feed.d.ts:5](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L5)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [types/feed.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d9
 is_main: boolean;
 ```
 
-Defined in: [types/feed.d.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L6)
+Defined in: [types/feed.d.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L6)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [types/feed.d.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d9
 broadcast_area: string[];
 ```
 
-Defined in: [types/feed.d.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L7)
+Defined in: [types/feed.d.ts:7](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L7)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [types/feed.d.ts:7](https://github.com/iptv-org/sdk/blob/34cebed36d9
 languages: string[];
 ```
 
-Defined in: [types/feed.d.ts:8](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L8)
+Defined in: [types/feed.d.ts:8](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L8)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [types/feed.d.ts:8](https://github.com/iptv-org/sdk/blob/34cebed36d9
 timezones: string[];
 ```
 
-Defined in: [types/feed.d.ts:9](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L9)
+Defined in: [types/feed.d.ts:9](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L9)
 
 ***
 
@@ -104,4 +104,4 @@ Defined in: [types/feed.d.ts:9](https://github.com/iptv-org/sdk/blob/34cebed36d9
 format: string;
 ```
 
-Defined in: [types/feed.d.ts:10](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/feed.d.ts#L10)
+Defined in: [types/feed.d.ts:10](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/feed.d.ts#L10)

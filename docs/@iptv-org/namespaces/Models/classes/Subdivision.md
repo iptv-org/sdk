@@ -1,6 +1,6 @@
 # Class: Subdivision
 
-Defined in: [models/subdivision.ts:6](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L6)
+Defined in: [models/subdivision.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L6)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/subdivision.ts:6](https://github.com/iptv-org/sdk/blob/34ceb
 new Subdivision(data: SubdivisionData): Subdivision;
 ```
 
-Defined in: [models/subdivision.ts:16](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L16)
+Defined in: [models/subdivision.ts:16](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L16)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/subdivision.ts:16](https://github.com/iptv-org/sdk/blob/34ce
 country: string;
 ```
 
-Defined in: [models/subdivision.ts:8](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L8)
+Defined in: [models/subdivision.ts:8](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L8)
 
 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country
 
@@ -42,7 +42,7 @@ Defined in: [models/subdivision.ts:8](https://github.com/iptv-org/sdk/blob/34ceb
 name: string;
 ```
 
-Defined in: [models/subdivision.ts:10](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L10)
+Defined in: [models/subdivision.ts:10](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L10)
 
 Subdivision name
 
@@ -54,7 +54,7 @@ Subdivision name
 code: string;
 ```
 
-Defined in: [models/subdivision.ts:12](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L12)
+Defined in: [models/subdivision.ts:12](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L12)
 
 [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision
 
@@ -66,7 +66,7 @@ Defined in: [models/subdivision.ts:12](https://github.com/iptv-org/sdk/blob/34ce
 parent: string | null;
 ```
 
-Defined in: [models/subdivision.ts:14](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L14)
+Defined in: [models/subdivision.ts:14](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L14)
 
 [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the parent subdivision
 
@@ -78,7 +78,7 @@ Defined in: [models/subdivision.ts:14](https://github.com/iptv-org/sdk/blob/34ce
 getCountry(): Country | undefined;
 ```
 
-Defined in: [models/subdivision.ts:24](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L24)
+Defined in: [models/subdivision.ts:24](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L24)
 
 #### Returns
 
@@ -94,7 +94,7 @@ Country in which the subdivision is located
 getParent(): Subdivision | undefined;
 ```
 
-Defined in: [models/subdivision.ts:29](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L29)
+Defined in: [models/subdivision.ts:29](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L29)
 
 #### Returns
 
@@ -110,7 +110,7 @@ Parent subdivision
 getCities(): Collection<City>;
 ```
 
-Defined in: [models/subdivision.ts:36](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L36)
+Defined in: [models/subdivision.ts:36](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L36)
 
 #### Returns
 
@@ -126,7 +126,7 @@ List of cities in which the subdivision is located
 getRegions(): Collection<Region>;
 ```
 
-Defined in: [models/subdivision.ts:41](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L41)
+Defined in: [models/subdivision.ts:41](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L41)
 
 #### Returns
 
@@ -142,7 +142,7 @@ List of regions in which the city is located
 toJSON(): string;
 ```
 
-Defined in: [models/subdivision.ts:49](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L49)
+Defined in: [models/subdivision.ts:49](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L49)
 
 #### Returns
 
@@ -158,7 +158,7 @@ JSON version of all data
 toObject(): SubdivisionData;
 ```
 
-Defined in: [models/subdivision.ts:54](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/models/subdivision.ts#L54)
+Defined in: [models/subdivision.ts:54](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/subdivision.ts#L54)
 
 #### Returns
 

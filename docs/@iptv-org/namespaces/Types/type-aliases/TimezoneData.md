@@ -8,7 +8,7 @@ type TimezoneData = {
 };
 ```
 
-Defined in: [types/timezone.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/timezone.d.ts#L1)
+Defined in: [types/timezone.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/timezone.d.ts#L1)
 
 ## Properties
 
@@ -18,7 +18,7 @@ Defined in: [types/timezone.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed
 id: string;
 ```
 
-Defined in: [types/timezone.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/timezone.d.ts#L2)
+Defined in: [types/timezone.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/timezone.d.ts#L2)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types/timezone.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed
 utc_offset: string;
 ```
 
-Defined in: [types/timezone.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/timezone.d.ts#L3)
+Defined in: [types/timezone.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/timezone.d.ts#L3)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types/timezone.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed
 countries: string[];
 ```
 
-Defined in: [types/timezone.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/timezone.d.ts#L4)
+Defined in: [types/timezone.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/timezone.d.ts#L4)

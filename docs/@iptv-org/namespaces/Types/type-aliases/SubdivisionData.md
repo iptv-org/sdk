@@ -9,7 +9,7 @@ type SubdivisionData = {
 };
 ```
 
-Defined in: [types/subdivision.d.ts:1](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/subdivision.d.ts#L1)
+Defined in: [types/subdivision.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/subdivision.d.ts#L1)
 
 ## Properties
 
@@ -19,7 +19,7 @@ Defined in: [types/subdivision.d.ts:1](https://github.com/iptv-org/sdk/blob/34ce
 code: string;
 ```
 
-Defined in: [types/subdivision.d.ts:2](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/subdivision.d.ts#L2)
+Defined in: [types/subdivision.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/subdivision.d.ts#L2)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [types/subdivision.d.ts:2](https://github.com/iptv-org/sdk/blob/34ce
 name: string;
 ```
 
-Defined in: [types/subdivision.d.ts:3](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/subdivision.d.ts#L3)
+Defined in: [types/subdivision.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/subdivision.d.ts#L3)
 
 ***
 
@@ -39,7 +39,7 @@ Defined in: [types/subdivision.d.ts:3](https://github.com/iptv-org/sdk/blob/34ce
 country: string;
 ```
 
-Defined in: [types/subdivision.d.ts:4](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/subdivision.d.ts#L4)
+Defined in: [types/subdivision.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/subdivision.d.ts#L4)
 
 ***
 
@@ -49,4 +49,4 @@ Defined in: [types/subdivision.d.ts:4](https://github.com/iptv-org/sdk/blob/34ce
 parent: string | null;
 ```
 
-Defined in: [types/subdivision.d.ts:5](https://github.com/iptv-org/sdk/blob/34cebed36d94c861f34d122fcd7af13dfe418417/src/types/subdivision.d.ts#L5)
+Defined in: [types/subdivision.d.ts:5](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/subdivision.d.ts#L5)
