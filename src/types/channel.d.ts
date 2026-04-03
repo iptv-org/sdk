@@ -30,6 +30,7 @@ export type ChannelSearchableData = {
   _languageNames: string[]
   _broadcastAreaNames: string[]
   _countryName: string
+  _guideSites: string[]
   _guideSiteNames: string[]
   _streamTitles: string[]
   _streamUrls: string[]
