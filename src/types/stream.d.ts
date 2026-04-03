@@ -6,4 +6,5 @@ export type StreamData = {
   referrer: string | null
   user_agent: string | null
   quality: string | null
+  label: string | null
 }
