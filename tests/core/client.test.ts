@@ -279,6 +279,15 @@ describe('Client', () => {
       })
     })
 
+    it('can find channel by domain name of the guide', () => {
+      let results = client.searchChannels('9tv.co.il')
+
+      expect(results.count()).toBe(1)
+      expect(results.first()).toMatchObject({
+        id: 'AndorraTV.ad'
+      })
+    })
+
     it('can find channel by stream url', () => {
       let results = client.searchChannels(
         'https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8'
