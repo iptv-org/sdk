@@ -1,6 +1,6 @@
 # Class: Timezone
 
-Defined in: [models/timezone.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L6)
+Defined in: [models/timezone.ts:6](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L6)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/timezone.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef
 new Timezone(data: TimezoneData): Timezone;
 ```
 
-Defined in: [models/timezone.ts:14](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L14)
+Defined in: [models/timezone.ts:14](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L14)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/timezone.ts:14](https://github.com/iptv-org/sdk/blob/b4a7e3e
 id: string;
 ```
 
-Defined in: [models/timezone.ts:8](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L8)
+Defined in: [models/timezone.ts:8](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L8)
 
 Timezone ID from [tz database](https://en.wikipedia.org/wiki/Tz_database)
 
@@ -42,7 +42,7 @@ Timezone ID from [tz database](https://en.wikipedia.org/wiki/Tz_database)
 utc_offset: string;
 ```
 
-Defined in: [models/timezone.ts:10](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L10)
+Defined in: [models/timezone.ts:10](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L10)
 
 [UTC offset](https://en.wikipedia.org/wiki/UTC_offset) for this time zone
 
@@ -54,7 +54,7 @@ Defined in: [models/timezone.ts:10](https://github.com/iptv-org/sdk/blob/b4a7e3e
 countries: string[];
 ```
 
-Defined in: [models/timezone.ts:12](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L12)
+Defined in: [models/timezone.ts:12](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L12)
 
 List of country codes included in the time zone
 
@@ -66,7 +66,7 @@ List of country codes included in the time zone
 getCountries(): Collection<Country>;
 ```
 
-Defined in: [models/timezone.ts:21](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L21)
+Defined in: [models/timezone.ts:21](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L21)
 
 #### Returns
 
@@ -82,7 +82,7 @@ List of countries included in the time zone
 toJSON(): string;
 ```
 
-Defined in: [models/timezone.ts:32](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L32)
+Defined in: [models/timezone.ts:32](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L32)
 
 #### Returns
 
@@ -98,7 +98,7 @@ JSON version of all data
 toObject(): TimezoneData;
 ```
 
-Defined in: [models/timezone.ts:37](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/models/timezone.ts#L37)
+Defined in: [models/timezone.ts:37](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/timezone.ts#L37)
 
 #### Returns
 

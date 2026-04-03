@@ -8,7 +8,7 @@ type BlocklistRecordData = {
 };
 ```
 
-Defined in: [types/blocklistRecord.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/blocklistRecord.d.ts#L1)
+Defined in: [types/blocklistRecord.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/blocklistRecord.d.ts#L1)
 
 ## Properties
 
@@ -18,7 +18,7 @@ Defined in: [types/blocklistRecord.d.ts:1](https://github.com/iptv-org/sdk/blob/
 channel: string;
 ```
 
-Defined in: [types/blocklistRecord.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/blocklistRecord.d.ts#L2)
+Defined in: [types/blocklistRecord.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/blocklistRecord.d.ts#L2)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types/blocklistRecord.d.ts:2](https://github.com/iptv-org/sdk/blob/
 reason: string;
 ```
 
-Defined in: [types/blocklistRecord.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/blocklistRecord.d.ts#L3)
+Defined in: [types/blocklistRecord.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/blocklistRecord.d.ts#L3)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types/blocklistRecord.d.ts:3](https://github.com/iptv-org/sdk/blob/
 ref: string;
 ```
 
-Defined in: [types/blocklistRecord.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/blocklistRecord.d.ts#L4)
+Defined in: [types/blocklistRecord.d.ts:4](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/blocklistRecord.d.ts#L4)

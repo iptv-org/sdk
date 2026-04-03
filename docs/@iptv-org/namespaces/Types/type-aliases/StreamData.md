@@ -9,10 +9,11 @@ type StreamData = {
   referrer: string | null;
   user_agent: string | null;
   quality: string | null;
+  label: string | null;
 };
 ```
 
-Defined in: [types/stream.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L1)
+Defined in: [types/stream.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L1)
 
 ## Properties
 
@@ -22,7 +23,7 @@ Defined in: [types/stream.d.ts:1](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 channel: string | null;
 ```
 
-Defined in: [types/stream.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L2)
+Defined in: [types/stream.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L2)
 
 ***
 
@@ -32,7 +33,7 @@ Defined in: [types/stream.d.ts:2](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 feed: string | null;
 ```
 
-Defined in: [types/stream.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L3)
+Defined in: [types/stream.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L3)
 
 ***
 
@@ -42,7 +43,7 @@ Defined in: [types/stream.d.ts:3](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 title: string;
 ```
 
-Defined in: [types/stream.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L4)
+Defined in: [types/stream.d.ts:4](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L4)
 
 ***
 
@@ -52,7 +53,7 @@ Defined in: [types/stream.d.ts:4](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 url: string;
 ```
 
-Defined in: [types/stream.d.ts:5](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L5)
+Defined in: [types/stream.d.ts:5](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L5)
 
 ***
 
@@ -62,7 +63,7 @@ Defined in: [types/stream.d.ts:5](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 referrer: string | null;
 ```
 
-Defined in: [types/stream.d.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L6)
+Defined in: [types/stream.d.ts:6](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L6)
 
 ***
 
@@ -72,7 +73,7 @@ Defined in: [types/stream.d.ts:6](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 user_agent: string | null;
 ```
 
-Defined in: [types/stream.d.ts:7](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L7)
+Defined in: [types/stream.d.ts:7](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L7)
 
 ***
 
@@ -82,4 +83,14 @@ Defined in: [types/stream.d.ts:7](https://github.com/iptv-org/sdk/blob/b4a7e3ef9
 quality: string | null;
 ```
 
-Defined in: [types/stream.d.ts:8](https://github.com/iptv-org/sdk/blob/b4a7e3ef912c1b12aeb70b76b76a1d949c3528bf/src/types/stream.d.ts#L8)
+Defined in: [types/stream.d.ts:8](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L8)
+
+***
+
+### label
+
+```ts
+label: string | null;
+```
+
+Defined in: [types/stream.d.ts:9](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/stream.d.ts#L9)
