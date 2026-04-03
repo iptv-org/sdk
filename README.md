@@ -33,7 +33,8 @@ Results:
     "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8",
     "referrer": null,
     "user_agent": null,
-    "quality": "480p"
+    "quality": "480p",
+    "label": "Geo-blocked"
   }
   //...
 ]
