@@ -212,6 +212,10 @@ export class Channel {
       .map<string>((guide: Guide) => guide.site_name)
       .filter(Boolean)
       .uniq()
+    const guideSites = guides
+      .map<string>((guide: Guide) => guide.site)
+      .filter(Boolean)
+      .uniq()
 
     const streamIds = feeds
       .map<string>((feed: Feed) => feed.getStreamId())
@@ -259,6 +263,7 @@ export class Channel {
       broadcast_area: broadcastAreaCodes.all(),
       _languageNames: languageNames.all(),
       _countryName: countryName,
+      _guideSites: guideSites.all(),
       _guideSiteNames: guideSiteNames.all(),
       _streamTitles: streamTitles.all(),
       _streamUrls: streamUrls.all(),
