@@ -31,6 +31,11 @@ describe('Stream', () => {
     expect(streams[1].quality).toBe('1080i')
   })
 
+  test('label', () => {
+    expect(streams[0].label).toBe('Geo-blocked')
+    expect(streams[1].label).toBe('Not 24/7')
+  })
+
   test('channel', () => {
     expect(streams[0].channel).toBe('AndorraTV.ad')
     expect(streams[1].channel).toBe('AndorraTV.ad')
@@ -90,7 +95,8 @@ describe('Stream', () => {
       url: 'https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8',
       referrer: null,
       user_agent: null,
-      quality: '480p'
+      quality: '480p',
+      label: 'Geo-blocked'
     })
     expect(streams[1].toObject()).toMatchObject({
       channel: 'AndorraTV.ad',
@@ -100,7 +106,8 @@ describe('Stream', () => {
       referrer: 'https://origin.xyz',
       user_agent:
         'Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
-      quality: '1080i'
+      quality: '1080i',
+      label: 'Not 24/7'
     })
   })
 })
