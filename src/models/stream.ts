@@ -18,6 +18,8 @@ export class Stream {
   user_agent: string | null
   /** Maximum stream quality */
   quality: string | null
+  /** Specified in cases where the broadcast for some reason may not be available to some users */
+  label: string | null
 
   constructor(data: StreamData) {
     this.channel = data.channel || null
@@ -27,6 +29,7 @@ export class Stream {
     this.referrer = data.referrer || null
     this.user_agent = data.user_agent || null
     this.quality = data.quality || null
+    this.label = data.label || null
   }
 
   /** @returns Stream ID */
@@ -113,7 +116,8 @@ export class Stream {
       url: this.url,
       referrer: this.referrer,
       user_agent: this.user_agent,
-      quality: this.quality
+      quality: this.quality,
+      label: this.label
     }
   }
 }
