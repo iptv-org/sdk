@@ -28,20 +28,23 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^24.3.1",
+    "@types/node": "^25.6.0",
     "fs-extra": "^11.3.1",
     "msw": "^2.11.2",
     "pkgroll": "^2.15.4",
     "prettier": "^3.6.2",
     "typedoc": "^0.28.14",
     "typedoc-plugin-markdown": "^4.8.1",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.4"
   },
   "dependencies": {
     "@freearhey/core": "^0.15.1",
     "@freearhey/search-js": "^0.2.1",
     "@ntlab/sfetch": "^1.2.0",
-    "axios": "^1.11.0",
+    "axios": "^1.15.0",
     "dayjs": "^1.11.18"
+  },
+  "overrides": {
+    "esbuild": "0.23.1"
   }
 }
