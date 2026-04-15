@@ -8,6 +8,8 @@ export class Logo {
   channel: string
   /** Feed ID */
   feed: string | null
+  /** Indicates whether the broadcaster is currently using this logo **/
+  in_use: boolean
   /** List of keywords describing this version of the logo */
   tags: string[]
   /** The width of the image in pixels */
@@ -22,6 +24,7 @@ export class Logo {
   constructor(data: LogoData) {
     this.channel = data.channel || ''
     this.feed = data.feed || null
+    this.in_use = data.in_use === false ? false : true
     this.tags = data.tags || []
     this.width = data.width || 0
     this.height = data.height || 0
@@ -56,6 +59,7 @@ export class Logo {
     return {
       channel: this.channel,
       feed: this.feed,
+      in_use: this.in_use,
       tags: this.tags,
       width: this.width,
       height: this.height,
