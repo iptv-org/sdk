@@ -22,6 +22,10 @@ describe('Logo', () => {
     expect(logo.feed).toBe(null)
   })
 
+  test('in_use', () => {
+    expect(logo.in_use).toBe(false)
+  })
+
   test('tags', () => {
     expect(logo.tags.length).toBe(1)
     expect(logo.tags[0]).toBe('horizontal')
@@ -59,6 +63,7 @@ describe('Logo', () => {
     expect(logo.toObject()).toMatchObject({
       channel: 'MeteoMedia.ca',
       feed: null,
+      in_use: false,
       tags: ['horizontal'],
       width: 512,
       height: 512,
