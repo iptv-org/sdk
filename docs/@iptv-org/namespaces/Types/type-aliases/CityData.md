@@ -10,7 +10,7 @@ type CityData = {
 };
 ```
 
-Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L1)
+Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L1)
 
 ## Properties
 
@@ -20,7 +20,7 @@ Defined in: [types/city.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66f3fd
 code: string;
 ```
 
-Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L2)
+Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L2)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/city.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66f3fd
 name: string;
 ```
 
-Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L3)
+Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L3)
 
 ***
 
@@ -40,17 +40,17 @@ Defined in: [types/city.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66f3fd
 country: string;
 ```
 
-Defined in: [types/city.d.ts:4](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L4)
+Defined in: [types/city.d.ts:4](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L4)
 
 ***
 
 ### subdivision?
 
 ```ts
-optional subdivision: string | null;
+optional subdivision?: string | null;
 ```
 
-Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L5)
+Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L5)
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: [types/city.d.ts:5](https://github.com/iptv-org/sdk/blob/055cc66f3fd
 wikidata_id: string;
 ```
 
-Defined in: [types/city.d.ts:6](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/city.d.ts#L6)
+Defined in: [types/city.d.ts:6](https://github.com/iptv-org/sdk/blob/master/src/types/city.d.ts#L6)

@@ -8,7 +8,7 @@ type CategoryData = {
 };
 ```
 
-Defined in: [types/category.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/category.d.ts#L1)
+Defined in: [types/category.d.ts:1](https://github.com/iptv-org/sdk/blob/master/src/types/category.d.ts#L1)
 
 ## Properties
 
@@ -18,7 +18,7 @@ Defined in: [types/category.d.ts:1](https://github.com/iptv-org/sdk/blob/055cc66
 id: string;
 ```
 
-Defined in: [types/category.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/category.d.ts#L2)
+Defined in: [types/category.d.ts:2](https://github.com/iptv-org/sdk/blob/master/src/types/category.d.ts#L2)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types/category.d.ts:2](https://github.com/iptv-org/sdk/blob/055cc66
 name: string;
 ```
 
-Defined in: [types/category.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/category.d.ts#L3)
+Defined in: [types/category.d.ts:3](https://github.com/iptv-org/sdk/blob/master/src/types/category.d.ts#L3)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types/category.d.ts:3](https://github.com/iptv-org/sdk/blob/055cc66
 description: string;
 ```
 
-Defined in: [types/category.d.ts:4](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/types/category.d.ts#L4)
+Defined in: [types/category.d.ts:4](https://github.com/iptv-org/sdk/blob/master/src/types/category.d.ts#L4)

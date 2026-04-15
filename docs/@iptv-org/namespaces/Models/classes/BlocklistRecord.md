@@ -1,6 +1,6 @@
 # Class: BlocklistRecord
 
-Defined in: [models/blocklistRecord.ts:5](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L5)
+Defined in: [models/blocklistRecord.ts:5](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L5)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/blocklistRecord.ts:5](https://github.com/iptv-org/sdk/blob/0
 new BlocklistRecord(data: BlocklistRecordData): BlocklistRecord;
 ```
 
-Defined in: [models/blocklistRecord.ts:13](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L13)
+Defined in: [models/blocklistRecord.ts:13](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L13)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/blocklistRecord.ts:13](https://github.com/iptv-org/sdk/blob/
 channel: string;
 ```
 
-Defined in: [models/blocklistRecord.ts:7](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L7)
+Defined in: [models/blocklistRecord.ts:7](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L7)
 
 Channel ID
 
@@ -42,7 +42,7 @@ Channel ID
 reason: string;
 ```
 
-Defined in: [models/blocklistRecord.ts:9](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L9)
+Defined in: [models/blocklistRecord.ts:9](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L9)
 
 Reason for blocking (`dmca` or `nsfw`)
 
@@ -54,7 +54,7 @@ Reason for blocking (`dmca` or `nsfw`)
 ref: string;
 ```
 
-Defined in: [models/blocklistRecord.ts:11](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L11)
+Defined in: [models/blocklistRecord.ts:11](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L11)
 
 Link to removal request or DMCA takedown notice
 
@@ -66,7 +66,7 @@ Link to removal request or DMCA takedown notice
 getChannel(): Channel | undefined;
 ```
 
-Defined in: [models/blocklistRecord.ts:20](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L20)
+Defined in: [models/blocklistRecord.ts:20](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L20)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Channel associated with this record in the blocklist
 toJSON(): string;
 ```
 
-Defined in: [models/blocklistRecord.ts:25](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L25)
+Defined in: [models/blocklistRecord.ts:25](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L25)
 
 #### Returns
 
@@ -98,7 +98,7 @@ JSON version of all data
 toObject(): BlocklistRecordData;
 ```
 
-Defined in: [models/blocklistRecord.ts:30](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/blocklistRecord.ts#L30)
+Defined in: [models/blocklistRecord.ts:30](https://github.com/iptv-org/sdk/blob/master/src/models/blocklistRecord.ts#L30)
 
 #### Returns
 

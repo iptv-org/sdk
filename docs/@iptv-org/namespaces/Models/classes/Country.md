@@ -1,6 +1,6 @@
 # Class: Country
 
-Defined in: [models/country.ts:9](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L9)
+Defined in: [models/country.ts:9](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L9)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [models/country.ts:9](https://github.com/iptv-org/sdk/blob/055cc66f3
 new Country(data: CountryData): Country;
 ```
 
-Defined in: [models/country.ts:19](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L19)
+Defined in: [models/country.ts:19](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L19)
 
 #### Parameters
 
@@ -30,7 +30,7 @@ Defined in: [models/country.ts:19](https://github.com/iptv-org/sdk/blob/055cc66f
 name: string;
 ```
 
-Defined in: [models/country.ts:11](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L11)
+Defined in: [models/country.ts:11](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L11)
 
 Name of the country
 
@@ -42,7 +42,7 @@ Name of the country
 code: string;
 ```
 
-Defined in: [models/country.ts:13](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L13)
+Defined in: [models/country.ts:13](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L13)
 
 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country
 
@@ -54,7 +54,7 @@ Defined in: [models/country.ts:13](https://github.com/iptv-org/sdk/blob/055cc66f
 languages: string[];
 ```
 
-Defined in: [models/country.ts:15](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L15)
+Defined in: [models/country.ts:15](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L15)
 
 List of official language [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) codes of the country
 
@@ -66,7 +66,7 @@ List of official language [ISO 639-3](https://en.wikipedia.org/wiki/ISO_639-3) c
 flag: string;
 ```
 
-Defined in: [models/country.ts:17](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L17)
+Defined in: [models/country.ts:17](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L17)
 
 Country flag emoji
 
@@ -78,7 +78,7 @@ Country flag emoji
 getLanguages(): Collection<Language>;
 ```
 
-Defined in: [models/country.ts:27](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L27)
+Defined in: [models/country.ts:27](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L27)
 
 #### Returns
 
@@ -94,7 +94,7 @@ List of official languages of the country
 getChannels(): Collection<Channel>;
 ```
 
-Defined in: [models/country.ts:40](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L40)
+Defined in: [models/country.ts:40](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L40)
 
 #### Returns
 
@@ -110,7 +110,7 @@ List of channels broadcast from the country
 getRegions(): Collection<Region>;
 ```
 
-Defined in: [models/country.ts:45](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L45)
+Defined in: [models/country.ts:45](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L45)
 
 #### Returns
 
@@ -126,7 +126,7 @@ List of regions that include the country
 getSubdivisions(): Collection<Subdivision>;
 ```
 
-Defined in: [models/country.ts:52](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L52)
+Defined in: [models/country.ts:52](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L52)
 
 #### Returns
 
@@ -142,7 +142,7 @@ List of subdivisions of the country
 getCities(): Collection<City>;
 ```
 
-Defined in: [models/country.ts:59](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L59)
+Defined in: [models/country.ts:59](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L59)
 
 #### Returns
 
@@ -158,7 +158,7 @@ List of cities of the country
 toJSON(): string;
 ```
 
-Defined in: [models/country.ts:64](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L64)
+Defined in: [models/country.ts:64](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L64)
 
 #### Returns
 
@@ -174,7 +174,7 @@ JSON version of all data
 toObject(): CountryData;
 ```
 
-Defined in: [models/country.ts:69](https://github.com/iptv-org/sdk/blob/055cc66f3fd9615818af3216fa1cea5824ba95eb/src/models/country.ts#L69)
+Defined in: [models/country.ts:69](https://github.com/iptv-org/sdk/blob/master/src/models/country.ts#L69)
 
 #### Returns
 
