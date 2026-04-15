@@ -1,4 +1,5 @@
 {
+  "gitRevision": "master",
   "entryPoints": [
     "src/index.ts"
   ],
