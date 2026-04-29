@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@freearhey/core": "^0.15.1",
-    "@freearhey/search-js": "^0.2.1",
+    "@freearhey/search-js": "^0.3.0",
     "@ntlab/sfetch": "^1.2.0",
     "axios": "^1.15.2",
     "dayjs": "^1.11.18"
