@@ -1,4 +1,4 @@
-import type { GuideData } from '../types'
+import type { GuideData, GuideSource } from '../types'
 import type { Channel } from './channel'
 import type { Feed } from './feed'
 import store from '../store'
@@ -16,6 +16,8 @@ export class Guide {
   site_name: string
   /** Language of the guide ([ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) code) */
   lang: string
+  /** List of available sources of the guide */
+  sources: GuideSource[]
 
   constructor(data: GuideData) {
     this.channel = data.channel || null
@@ -24,6 +26,7 @@ export class Guide {
     this.site_id = data.site_id || ''
     this.site_name = data.site_name || ''
     this.lang = data.lang || ''
+    this.sources = data.sources || []
   }
 
   /** @returns Channel associated with the guide */
@@ -67,7 +70,8 @@ export class Guide {
       site: this.site,
       site_id: this.site_id,
       site_name: this.site_name,
-      lang: this.lang
+      lang: this.lang,
+      sources: this.sources
     }
   }
 }
