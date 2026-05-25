@@ -10,7 +10,7 @@ Defined in: [models/guide.ts:6](https://github.com/iptv-org/sdk/blob/master/src/
 new Guide(data: GuideData): Guide;
 ```
 
-Defined in: [models/guide.ts:20](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L20)
+Defined in: [models/guide.ts:22](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L22)
 
 #### Parameters
 
@@ -94,6 +94,18 @@ Defined in: [models/guide.ts:18](https://github.com/iptv-org/sdk/blob/master/src
 
 Language of the guide ([ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) code)
 
+***
+
+### sources
+
+```ts
+sources: GuideSource[];
+```
+
+Defined in: [models/guide.ts:20](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L20)
+
+List of available sources of the guide
+
 ## Methods
 
 ### getChannel()
@@ -102,7 +114,7 @@ Language of the guide ([ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) code
 getChannel(): Channel | undefined;
 ```
 
-Defined in: [models/guide.ts:30](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L30)
+Defined in: [models/guide.ts:33](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L33)
 
 #### Returns
 
@@ -118,7 +130,7 @@ Channel associated with the guide
 getFeed(): Feed | undefined;
 ```
 
-Defined in: [models/guide.ts:37](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L37)
+Defined in: [models/guide.ts:40](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L40)
 
 #### Returns
 
@@ -134,7 +146,7 @@ Feed associated with the guide
 getStreamId(): string;
 ```
 
-Defined in: [models/guide.ts:42](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L42)
+Defined in: [models/guide.ts:45](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L45)
 
 #### Returns
 
@@ -150,7 +162,7 @@ Stream ID for the guide
 toJSON(): string;
 ```
 
-Defined in: [models/guide.ts:58](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L58)
+Defined in: [models/guide.ts:61](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L61)
 
 #### Returns
 
@@ -166,7 +178,7 @@ JSON version of all data
 toObject(): GuideData;
 ```
 
-Defined in: [models/guide.ts:63](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L63)
+Defined in: [models/guide.ts:66](https://github.com/iptv-org/sdk/blob/master/src/models/guide.ts#L66)
 
 #### Returns
 

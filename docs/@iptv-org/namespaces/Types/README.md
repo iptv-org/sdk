@@ -14,6 +14,7 @@
 - [RawData](type-aliases/RawData.md)
 - [ProcessedData](type-aliases/ProcessedData.md)
 - [FeedData](type-aliases/FeedData.md)
+- [GuideSource](type-aliases/GuideSource.md)
 - [GuideData](type-aliases/GuideData.md)
 - [LanguageData](type-aliases/LanguageData.md)
 - [LogoData](type-aliases/LogoData.md)
