@@ -1,1 +1,1 @@
-[{"channel":"AndorraTV.ad","feed":null,"site":"9tv.co.il","site_id":"#","site_name":"9 канал","lang":"ru"}]
+[{"channel":"AndorraTV.ad","feed":null,"site":"9tv.co.il","site_id":"#","site_name":"9 канал","lang":"ru","sources":[{"host":"example.com","url":"https://example.com/guide.xml","format":"XML"}]}]
