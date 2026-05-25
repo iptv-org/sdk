@@ -38,6 +38,14 @@ describe('Guide', () => {
     expect(guide.lang).toBe('ru')
   })
 
+  test('sources', () => {
+    expect(guide.sources[0]).toMatchObject({
+      host: 'example.com',
+      url: 'https://example.com/guide.xml',
+      format: 'XML'
+    })
+  })
+
   test('getChannel()', () => {
     expect(guide.getChannel()).instanceOf(Channel)
   })
@@ -57,7 +65,14 @@ describe('Guide', () => {
       site: '9tv.co.il',
       site_id: '#',
       site_name: '9 канал',
-      lang: 'ru'
+      lang: 'ru',
+      sources: [
+        {
+          host: 'example.com',
+          url: 'https://example.com/guide.xml',
+          format: 'XML'
+        }
+      ]
     })
   })
 })
